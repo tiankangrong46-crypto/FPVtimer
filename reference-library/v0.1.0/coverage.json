@@ -1,0 +1,2318 @@
+{
+  "schemaVersion": "1.0.0",
+  "libraryVersion": "0.1.0",
+  "items": [
+    {
+      "stator": "0702",
+      "kv": 22000,
+      "benchPoints": 19,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "0702",
+      "kv": 23000,
+      "benchPoints": 43,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "0702",
+      "kv": 25000,
+      "benchPoints": 23,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "0702",
+      "kv": 26000,
+      "benchPoints": 13,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "0702",
+      "kv": 27000,
+      "benchPoints": 30,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "0702",
+      "kv": 29000,
+      "benchPoints": 30,
+      "anonymousCurves": 7,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "0702",
+      "kv": 30000,
+      "benchPoints": 39,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 4
+    },
+    {
+      "stator": "0702",
+      "kv": 36000,
+      "benchPoints": 9,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "0703",
+      "kv": 16500,
+      "benchPoints": 21,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "0703",
+      "kv": 19000,
+      "benchPoints": 28,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "0703",
+      "kv": 23000,
+      "benchPoints": 10,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "0703",
+      "kv": 23500,
+      "benchPoints": 40,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "0703",
+      "kv": 27000,
+      "benchPoints": 10,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "0802",
+      "kv": 16000,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "0802",
+      "kv": 17000,
+      "benchPoints": 10,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "0802",
+      "kv": 19000,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "0802",
+      "kv": 19500,
+      "benchPoints": 22,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "0802",
+      "kv": 20000,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "0802",
+      "kv": 22000,
+      "benchPoints": 24,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 4
+    },
+    {
+      "stator": "0802",
+      "kv": 23000,
+      "benchPoints": 23,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "0802",
+      "kv": 25000,
+      "benchPoints": 48,
+      "anonymousCurves": 11,
+      "knownGeometryCurves": 6,
+      "constantVoltageSegments": 6
+    },
+    {
+      "stator": "0802",
+      "kv": 27000,
+      "benchPoints": 8,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 4
+    },
+    {
+      "stator": "0803",
+      "kv": 11000,
+      "benchPoints": 10,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "0803",
+      "kv": 19000,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1002",
+      "kv": 14000,
+      "benchPoints": 10,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "1002",
+      "kv": 19000,
+      "benchPoints": 10,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "1002",
+      "kv": 19800,
+      "benchPoints": 10,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "1002",
+      "kv": 20000,
+      "benchPoints": 6,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1002",
+      "kv": 21000,
+      "benchPoints": 10,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "1002",
+      "kv": 22000,
+      "benchPoints": 10,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "1002",
+      "kv": 23500,
+      "benchPoints": 10,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "1003",
+      "kv": 10000,
+      "benchPoints": 40,
+      "anonymousCurves": 20,
+      "knownGeometryCurves": 14,
+      "constantVoltageSegments": 14
+    },
+    {
+      "stator": "1003",
+      "kv": 14800,
+      "benchPoints": 12,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 4
+    },
+    {
+      "stator": "1003",
+      "kv": 18000,
+      "benchPoints": 16,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 6,
+      "constantVoltageSegments": 6
+    },
+    {
+      "stator": "1003",
+      "kv": 22000,
+      "benchPoints": 16,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 6,
+      "constantVoltageSegments": 6
+    },
+    {
+      "stator": "1102",
+      "kv": 10000,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1102",
+      "kv": 14000,
+      "benchPoints": 34,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1102",
+      "kv": 18000,
+      "benchPoints": 38,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "1102",
+      "kv": 21000,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1102",
+      "kv": 22000,
+      "benchPoints": 39,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "1103",
+      "kv": 7000,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1103",
+      "kv": 8000,
+      "benchPoints": 40,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 10
+    },
+    {
+      "stator": "1103",
+      "kv": 8500,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1103",
+      "kv": 10500,
+      "benchPoints": 9,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1103",
+      "kv": 11000,
+      "benchPoints": 29,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "1202.5",
+      "kv": 6400,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1202.5",
+      "kv": 11000,
+      "benchPoints": 12,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1203",
+      "kv": 7000,
+      "benchPoints": 66,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 17
+    },
+    {
+      "stator": "1204",
+      "kv": 4500,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1204",
+      "kv": 5000,
+      "benchPoints": 30,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "1204",
+      "kv": 5600,
+      "benchPoints": 24,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "1204",
+      "kv": 6500,
+      "benchPoints": 22,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1204",
+      "kv": 8250,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1207",
+      "kv": 5000,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1303",
+      "kv": 5000,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1303",
+      "kv": 5400,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1303",
+      "kv": 6000,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1303",
+      "kv": 7200,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1303",
+      "kv": 8800,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1303",
+      "kv": 9600,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "1303.5",
+      "kv": 5500,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1404",
+      "kv": 2450,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1404",
+      "kv": 2750,
+      "benchPoints": 38,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 9,
+      "constantVoltageSegments": 9
+    },
+    {
+      "stator": "1404",
+      "kv": 2900,
+      "benchPoints": 77,
+      "anonymousCurves": 7,
+      "knownGeometryCurves": 7,
+      "constantVoltageSegments": 14
+    },
+    {
+      "stator": "1404",
+      "kv": 3000,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1404",
+      "kv": 3500,
+      "benchPoints": 24,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "1404",
+      "kv": 3750,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1404",
+      "kv": 3800,
+      "benchPoints": 22,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1404",
+      "kv": 3850,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1404",
+      "kv": 4000,
+      "benchPoints": 36,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "1404",
+      "kv": 4500,
+      "benchPoints": 24,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1404",
+      "kv": 4600,
+      "benchPoints": 22,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1404",
+      "kv": 4800,
+      "benchPoints": 14,
+      "anonymousCurves": 7,
+      "knownGeometryCurves": 7,
+      "constantVoltageSegments": 7
+    },
+    {
+      "stator": "1407",
+      "kv": 3600,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1408",
+      "kv": 2800,
+      "benchPoints": 66,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 6,
+      "constantVoltageSegments": 6
+    },
+    {
+      "stator": "1408",
+      "kv": 3950,
+      "benchPoints": 66,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1506",
+      "kv": 4300,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1507",
+      "kv": 1550,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1507",
+      "kv": 1900,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "1507",
+      "kv": 2650,
+      "benchPoints": 36,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "1507",
+      "kv": 2680,
+      "benchPoints": 16,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 6,
+      "constantVoltageSegments": 6
+    },
+    {
+      "stator": "1507",
+      "kv": 2700,
+      "benchPoints": 33,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1507",
+      "kv": 2800,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1507",
+      "kv": 3100,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1507",
+      "kv": 3750,
+      "benchPoints": 9,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1507",
+      "kv": 3800,
+      "benchPoints": 49,
+      "anonymousCurves": 11,
+      "knownGeometryCurves": 6,
+      "constantVoltageSegments": 6
+    },
+    {
+      "stator": "1507",
+      "kv": 4000,
+      "benchPoints": 17,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1507",
+      "kv": 4150,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1507",
+      "kv": 4200,
+      "benchPoints": 14,
+      "anonymousCurves": 7,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "1604",
+      "kv": 2850,
+      "benchPoints": 5,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1604",
+      "kv": 3800,
+      "benchPoints": 5,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1605",
+      "kv": 1800,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1605",
+      "kv": 2050,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1605",
+      "kv": 2450,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1605",
+      "kv": 2800,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1605",
+      "kv": 3350,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1605",
+      "kv": 3600,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1605",
+      "kv": 3650,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1605",
+      "kv": 3800,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "1605",
+      "kv": 3900,
+      "benchPoints": 12,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1804",
+      "kv": 2400,
+      "benchPoints": 20,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "1804",
+      "kv": 2450,
+      "benchPoints": 16,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 4
+    },
+    {
+      "stator": "1804",
+      "kv": 3400,
+      "benchPoints": 20,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "1804",
+      "kv": 3500,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2004",
+      "kv": 1600,
+      "benchPoints": 28,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2004",
+      "kv": 1700,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2004",
+      "kv": 1800,
+      "benchPoints": 16,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2004",
+      "kv": 2000,
+      "benchPoints": 35,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "2004",
+      "kv": 2400,
+      "benchPoints": 35,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 4
+    },
+    {
+      "stator": "2004",
+      "kv": 3000,
+      "benchPoints": 28,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 4
+    },
+    {
+      "stator": "2004",
+      "kv": 3150,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2006",
+      "kv": 1850,
+      "benchPoints": 24,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2006",
+      "kv": 1960,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2006",
+      "kv": 2100,
+      "benchPoints": 18,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2006",
+      "kv": 2150,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2006",
+      "kv": 2500,
+      "benchPoints": 18,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2006",
+      "kv": 2750,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2006",
+      "kv": 3450,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2010",
+      "kv": 1911,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2104",
+      "kv": 1800,
+      "benchPoints": 18,
+      "anonymousCurves": 9,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "2104",
+      "kv": 3000,
+      "benchPoints": 18,
+      "anonymousCurves": 9,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "2105.5",
+      "kv": 1850,
+      "benchPoints": 16,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2105.5",
+      "kv": 2650,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2105.5",
+      "kv": 2950,
+      "benchPoints": 19,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2105.5",
+      "kv": 3600,
+      "benchPoints": 14,
+      "anonymousCurves": 7,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2107.5",
+      "kv": 1980,
+      "benchPoints": 20,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2107.5",
+      "kv": 2080,
+      "benchPoints": 20,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2107.5",
+      "kv": 2480,
+      "benchPoints": 20,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2203.5",
+      "kv": 1500,
+      "benchPoints": 44,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2203.5",
+      "kv": 2850,
+      "benchPoints": 77,
+      "anonymousCurves": 7,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2203.5",
+      "kv": 3550,
+      "benchPoints": 55,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2204.5",
+      "kv": 1900,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2204.5",
+      "kv": 2300,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2204.5",
+      "kv": 2750,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2204.5",
+      "kv": 3500,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2205",
+      "kv": 2140,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2205",
+      "kv": 2300,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2206.5",
+      "kv": 1860,
+      "benchPoints": 20,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2206.5",
+      "kv": 2020,
+      "benchPoints": 18,
+      "anonymousCurves": 9,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2206.5",
+      "kv": 2420,
+      "benchPoints": 20,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2206.6",
+      "kv": 1980,
+      "benchPoints": 20,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2206.6",
+      "kv": 2100,
+      "benchPoints": 20,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2206.6",
+      "kv": 2160,
+      "benchPoints": 20,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2207",
+      "kv": 1500,
+      "benchPoints": 40,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 7
+    },
+    {
+      "stator": "2207",
+      "kv": 1570,
+      "benchPoints": 10,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 1590,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 1700,
+      "benchPoints": 36,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "2207",
+      "kv": 1720,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2207",
+      "kv": 1750,
+      "benchPoints": 69,
+      "anonymousCurves": 9,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2207",
+      "kv": 1800,
+      "benchPoints": 24,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2207",
+      "kv": 1850,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 1855,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 1860,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 1900,
+      "benchPoints": 32,
+      "anonymousCurves": 7,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 4
+    },
+    {
+      "stator": "2207",
+      "kv": 1920,
+      "benchPoints": 14,
+      "anonymousCurves": 7,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 1950,
+      "benchPoints": 101,
+      "anonymousCurves": 13,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2207",
+      "kv": 1960,
+      "benchPoints": 64,
+      "anonymousCurves": 15,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2207",
+      "kv": 2005,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2020,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2207",
+      "kv": 2040,
+      "benchPoints": 20,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2050,
+      "benchPoints": 63,
+      "anonymousCurves": 9,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2060,
+      "benchPoints": 20,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2080,
+      "benchPoints": 10,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2100,
+      "benchPoints": 68,
+      "anonymousCurves": 11,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2207",
+      "kv": 2111,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2120,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2150,
+      "benchPoints": 30,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2160,
+      "benchPoints": 40,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2207",
+      "kv": 2200,
+      "benchPoints": 30,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2400,
+      "benchPoints": 44,
+      "anonymousCurves": 9,
+      "knownGeometryCurves": 6,
+      "constantVoltageSegments": 7
+    },
+    {
+      "stator": "2207",
+      "kv": 2450,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2500,
+      "benchPoints": 20,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2207",
+      "kv": 2550,
+      "benchPoints": 69,
+      "anonymousCurves": 9,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2700,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2207",
+      "kv": 2750,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207.3",
+      "kv": 1975,
+      "benchPoints": 18,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2207.3",
+      "kv": 2125,
+      "benchPoints": 18,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2207.3",
+      "kv": 2725,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1400,
+      "benchPoints": 6,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1750,
+      "benchPoints": 98,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1860,
+      "benchPoints": 32,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1900,
+      "benchPoints": 36,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1930,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1950,
+      "benchPoints": 118,
+      "anonymousCurves": 14,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1960,
+      "benchPoints": 40,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2207.5",
+      "kv": 2020,
+      "benchPoints": 30,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2207.5",
+      "kv": 2400,
+      "benchPoints": 18,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2207.5",
+      "kv": 2500,
+      "benchPoints": 12,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2207.5",
+      "kv": 2550,
+      "benchPoints": 98,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2208",
+      "kv": 1750,
+      "benchPoints": 84,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 4
+    },
+    {
+      "stator": "2208",
+      "kv": 1850,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2208",
+      "kv": 1950,
+      "benchPoints": 76,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2208",
+      "kv": 2450,
+      "benchPoints": 52,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2306",
+      "kv": 1500,
+      "benchPoints": 40,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 6
+    },
+    {
+      "stator": "2306",
+      "kv": 1700,
+      "benchPoints": 36,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "2306",
+      "kv": 1750,
+      "benchPoints": 15,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2306",
+      "kv": 1755,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306",
+      "kv": 1800,
+      "benchPoints": 24,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 6,
+      "constantVoltageSegments": 6
+    },
+    {
+      "stator": "2306",
+      "kv": 1860,
+      "benchPoints": 20,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2306",
+      "kv": 1900,
+      "benchPoints": 32,
+      "anonymousCurves": 7,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 4
+    },
+    {
+      "stator": "2306",
+      "kv": 1950,
+      "benchPoints": 103,
+      "anonymousCurves": 11,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306",
+      "kv": 2100,
+      "benchPoints": 20,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "2306",
+      "kv": 2400,
+      "benchPoints": 80,
+      "anonymousCurves": 12,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "2306",
+      "kv": 2450,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306",
+      "kv": 2500,
+      "benchPoints": 24,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 6,
+      "constantVoltageSegments": 6
+    },
+    {
+      "stator": "2306",
+      "kv": 2550,
+      "benchPoints": 59,
+      "anonymousCurves": 7,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306",
+      "kv": 2555,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.3",
+      "kv": 1700,
+      "benchPoints": 15,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.3",
+      "kv": 2500,
+      "benchPoints": 15,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1400,
+      "benchPoints": 12,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1750,
+      "benchPoints": 40,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1850,
+      "benchPoints": 16,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1860,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1900,
+      "benchPoints": 46,
+      "anonymousCurves": 13,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1950,
+      "benchPoints": 77,
+      "anonymousCurves": 7,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1960,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.5",
+      "kv": 2400,
+      "benchPoints": 69,
+      "anonymousCurves": 9,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.5",
+      "kv": 2450,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.5",
+      "kv": 2550,
+      "benchPoints": 60,
+      "anonymousCurves": 12,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.8",
+      "kv": 1950,
+      "benchPoints": 15,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2306.8",
+      "kv": 2150,
+      "benchPoints": 15,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2307",
+      "kv": 1750,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2307",
+      "kv": 1950,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2307.3",
+      "kv": 1960,
+      "benchPoints": 24,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2307.3",
+      "kv": 2060,
+      "benchPoints": 24,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2406",
+      "kv": 1550,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2406",
+      "kv": 1800,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2406",
+      "kv": 1850,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2406",
+      "kv": 1860,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2406",
+      "kv": 1950,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2406",
+      "kv": 2080,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2407",
+      "kv": 1700,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2407",
+      "kv": 1750,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2505",
+      "kv": 1850,
+      "benchPoints": 48,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 6,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2506",
+      "kv": 1500,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2506",
+      "kv": 1850,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2507",
+      "kv": 1200,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2507",
+      "kv": 1500,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "2507",
+      "kv": 1750,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2507",
+      "kv": 1850,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2507",
+      "kv": 2200,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2510",
+      "kv": 930,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2510",
+      "kv": 1030,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2510",
+      "kv": 1250,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2510",
+      "kv": 1380,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1300,
+      "benchPoints": 30,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1350,
+      "benchPoints": 28,
+      "anonymousCurves": 10,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1460,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1500,
+      "benchPoints": 33,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1700,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1750,
+      "benchPoints": 16,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1800,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1850,
+      "benchPoints": 9,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1920,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1950,
+      "benchPoints": 33,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2807",
+      "kv": 1300,
+      "benchPoints": 29,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2807",
+      "kv": 1400,
+      "benchPoints": 14,
+      "anonymousCurves": 7,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "2807",
+      "kv": 1500,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2807",
+      "kv": 1700,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2807",
+      "kv": 1950,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2808",
+      "kv": 1300,
+      "benchPoints": 28,
+      "anonymousCurves": 5,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2808",
+      "kv": 1350,
+      "benchPoints": 32,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 5
+    },
+    {
+      "stator": "2808",
+      "kv": 1500,
+      "benchPoints": 36,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 6,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2808",
+      "kv": 1550,
+      "benchPoints": 24,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "2808",
+      "kv": 1900,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2808",
+      "kv": 1950,
+      "benchPoints": 20,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2809",
+      "kv": 1280,
+      "benchPoints": 12,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2810",
+      "kv": 900,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2810",
+      "kv": 1100,
+      "benchPoints": 30,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2810",
+      "kv": 1180,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "2810",
+      "kv": 1350,
+      "benchPoints": 38,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2810",
+      "kv": 1500,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "2812",
+      "kv": 900,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 7
+    },
+    {
+      "stator": "2812",
+      "kv": 1115,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 6
+    },
+    {
+      "stator": "2812",
+      "kv": 1150,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "2812",
+      "kv": 1300,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "3110",
+      "kv": 900,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "3115",
+      "kv": 400,
+      "benchPoints": 18,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "3115",
+      "kv": 480,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 2
+    },
+    {
+      "stator": "3115",
+      "kv": 500,
+      "benchPoints": 0,
+      "anonymousCurves": 0,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "3115",
+      "kv": 640,
+      "benchPoints": 72,
+      "anonymousCurves": 8,
+      "knownGeometryCurves": 5,
+      "constantVoltageSegments": 7
+    },
+    {
+      "stator": "3115",
+      "kv": 800,
+      "benchPoints": 24,
+      "anonymousCurves": 3,
+      "knownGeometryCurves": 3,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "3115",
+      "kv": 900,
+      "benchPoints": 81,
+      "anonymousCurves": 9,
+      "knownGeometryCurves": 6,
+      "constantVoltageSegments": 10
+    },
+    {
+      "stator": "3115",
+      "kv": 970,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 3
+    },
+    {
+      "stator": "3115",
+      "kv": 1050,
+      "benchPoints": 58,
+      "anonymousCurves": 6,
+      "knownGeometryCurves": 4,
+      "constantVoltageSegments": 8
+    },
+    {
+      "stator": "3115",
+      "kv": 1200,
+      "benchPoints": 16,
+      "anonymousCurves": 2,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "3115",
+      "kv": 1520,
+      "benchPoints": 8,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 1,
+      "constantVoltageSegments": 1
+    },
+    {
+      "stator": "3120",
+      "kv": 500,
+      "benchPoints": 10,
+      "anonymousCurves": 1,
+      "knownGeometryCurves": 0,
+      "constantVoltageSegments": 0
+    },
+    {
+      "stator": "3120",
+      "kv": 700,
+      "benchPoints": 40,
+      "anonymousCurves": 4,
+      "knownGeometryCurves": 2,
+      "constantVoltageSegments": 4
+    }
+  ]
+}

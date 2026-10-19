@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.tools/
+src-tauri/target/
+test-results/
+playwright-report/
+*.log
+.taste-skill/
+src-tauri/gen/
+outputs/*
+!outputs/v0.7.2/
+outputs/v0.7.2/*.exe
+.env
+.env.*
+!.env.example

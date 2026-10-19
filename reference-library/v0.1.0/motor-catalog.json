@@ -1,0 +1,1740 @@
+{
+  "schemaVersion": "1.0.0",
+  "libraryVersion": "0.1.0",
+  "items": [
+    {
+      "stator": "0702",
+      "kv": 22000,
+      "anonymousVariants": 1,
+      "benchPoints": 19
+    },
+    {
+      "stator": "0702",
+      "kv": 23000,
+      "anonymousVariants": 4,
+      "benchPoints": 43
+    },
+    {
+      "stator": "0702",
+      "kv": 25000,
+      "anonymousVariants": 2,
+      "benchPoints": 23
+    },
+    {
+      "stator": "0702",
+      "kv": 26000,
+      "anonymousVariants": 1,
+      "benchPoints": 13
+    },
+    {
+      "stator": "0702",
+      "kv": 27000,
+      "anonymousVariants": 3,
+      "benchPoints": 30
+    },
+    {
+      "stator": "0702",
+      "kv": 29000,
+      "anonymousVariants": 2,
+      "benchPoints": 30
+    },
+    {
+      "stator": "0702",
+      "kv": 30000,
+      "anonymousVariants": 4,
+      "benchPoints": 39
+    },
+    {
+      "stator": "0702",
+      "kv": 36000,
+      "anonymousVariants": 1,
+      "benchPoints": 9
+    },
+    {
+      "stator": "0703",
+      "kv": 16500,
+      "anonymousVariants": 1,
+      "benchPoints": 21
+    },
+    {
+      "stator": "0703",
+      "kv": 19000,
+      "anonymousVariants": 1,
+      "benchPoints": 28
+    },
+    {
+      "stator": "0703",
+      "kv": 23000,
+      "anonymousVariants": 1,
+      "benchPoints": 10
+    },
+    {
+      "stator": "0703",
+      "kv": 23500,
+      "anonymousVariants": 1,
+      "benchPoints": 40
+    },
+    {
+      "stator": "0703",
+      "kv": 27000,
+      "anonymousVariants": 1,
+      "benchPoints": 10
+    },
+    {
+      "stator": "0802",
+      "kv": 16000,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "0802",
+      "kv": 17000,
+      "anonymousVariants": 1,
+      "benchPoints": 10
+    },
+    {
+      "stator": "0802",
+      "kv": 19000,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "0802",
+      "kv": 19500,
+      "anonymousVariants": 1,
+      "benchPoints": 22
+    },
+    {
+      "stator": "0802",
+      "kv": 20000,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "0802",
+      "kv": 22000,
+      "anonymousVariants": 2,
+      "benchPoints": 24
+    },
+    {
+      "stator": "0802",
+      "kv": 23000,
+      "anonymousVariants": 1,
+      "benchPoints": 23
+    },
+    {
+      "stator": "0802",
+      "kv": 25000,
+      "anonymousVariants": 3,
+      "benchPoints": 48
+    },
+    {
+      "stator": "0802",
+      "kv": 27000,
+      "anonymousVariants": 2,
+      "benchPoints": 8
+    },
+    {
+      "stator": "0803",
+      "kv": 11000,
+      "anonymousVariants": 1,
+      "benchPoints": 10
+    },
+    {
+      "stator": "0803",
+      "kv": 19000,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1002",
+      "kv": 14000,
+      "anonymousVariants": 1,
+      "benchPoints": 10
+    },
+    {
+      "stator": "1002",
+      "kv": 19000,
+      "anonymousVariants": 1,
+      "benchPoints": 10
+    },
+    {
+      "stator": "1002",
+      "kv": 19800,
+      "anonymousVariants": 1,
+      "benchPoints": 10
+    },
+    {
+      "stator": "1002",
+      "kv": 20000,
+      "anonymousVariants": 1,
+      "benchPoints": 6
+    },
+    {
+      "stator": "1002",
+      "kv": 21000,
+      "anonymousVariants": 1,
+      "benchPoints": 10
+    },
+    {
+      "stator": "1002",
+      "kv": 22000,
+      "anonymousVariants": 1,
+      "benchPoints": 10
+    },
+    {
+      "stator": "1002",
+      "kv": 23500,
+      "anonymousVariants": 1,
+      "benchPoints": 10
+    },
+    {
+      "stator": "1003",
+      "kv": 10000,
+      "anonymousVariants": 2,
+      "benchPoints": 40
+    },
+    {
+      "stator": "1003",
+      "kv": 14800,
+      "anonymousVariants": 1,
+      "benchPoints": 12
+    },
+    {
+      "stator": "1003",
+      "kv": 18000,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "1003",
+      "kv": 22000,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "1102",
+      "kv": 10000,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1102",
+      "kv": 14000,
+      "anonymousVariants": 1,
+      "benchPoints": 34
+    },
+    {
+      "stator": "1102",
+      "kv": 18000,
+      "anonymousVariants": 1,
+      "benchPoints": 38
+    },
+    {
+      "stator": "1102",
+      "kv": 21000,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1102",
+      "kv": 22000,
+      "anonymousVariants": 1,
+      "benchPoints": 39
+    },
+    {
+      "stator": "1103",
+      "kv": 7000,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1103",
+      "kv": 8000,
+      "anonymousVariants": 1,
+      "benchPoints": 40
+    },
+    {
+      "stator": "1103",
+      "kv": 8500,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1103",
+      "kv": 10500,
+      "anonymousVariants": 1,
+      "benchPoints": 9
+    },
+    {
+      "stator": "1103",
+      "kv": 11000,
+      "anonymousVariants": 3,
+      "benchPoints": 29
+    },
+    {
+      "stator": "1202.5",
+      "kv": 6400,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1202.5",
+      "kv": 11000,
+      "anonymousVariants": 2,
+      "benchPoints": 12
+    },
+    {
+      "stator": "1203",
+      "kv": 7000,
+      "anonymousVariants": 1,
+      "benchPoints": 66
+    },
+    {
+      "stator": "1204",
+      "kv": 4500,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1204",
+      "kv": 5000,
+      "anonymousVariants": 2,
+      "benchPoints": 30
+    },
+    {
+      "stator": "1204",
+      "kv": 5600,
+      "anonymousVariants": 1,
+      "benchPoints": 24
+    },
+    {
+      "stator": "1204",
+      "kv": 6500,
+      "anonymousVariants": 1,
+      "benchPoints": 22
+    },
+    {
+      "stator": "1204",
+      "kv": 8250,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1207",
+      "kv": 5000,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1303",
+      "kv": 5000,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1303",
+      "kv": 5400,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1303",
+      "kv": 6000,
+      "anonymousVariants": 2,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1303",
+      "kv": 7200,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1303",
+      "kv": 8800,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1303",
+      "kv": 9600,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "1303.5",
+      "kv": 5500,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1404",
+      "kv": 2450,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1404",
+      "kv": 2750,
+      "anonymousVariants": 3,
+      "benchPoints": 38
+    },
+    {
+      "stator": "1404",
+      "kv": 2900,
+      "anonymousVariants": 1,
+      "benchPoints": 77
+    },
+    {
+      "stator": "1404",
+      "kv": 3000,
+      "anonymousVariants": 2,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1404",
+      "kv": 3500,
+      "anonymousVariants": 1,
+      "benchPoints": 24
+    },
+    {
+      "stator": "1404",
+      "kv": 3750,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1404",
+      "kv": 3800,
+      "anonymousVariants": 2,
+      "benchPoints": 22
+    },
+    {
+      "stator": "1404",
+      "kv": 3850,
+      "anonymousVariants": 2,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1404",
+      "kv": 4000,
+      "anonymousVariants": 2,
+      "benchPoints": 36
+    },
+    {
+      "stator": "1404",
+      "kv": 4500,
+      "anonymousVariants": 1,
+      "benchPoints": 24
+    },
+    {
+      "stator": "1404",
+      "kv": 4600,
+      "anonymousVariants": 2,
+      "benchPoints": 22
+    },
+    {
+      "stator": "1404",
+      "kv": 4800,
+      "anonymousVariants": 1,
+      "benchPoints": 14
+    },
+    {
+      "stator": "1407",
+      "kv": 3600,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1408",
+      "kv": 2800,
+      "anonymousVariants": 1,
+      "benchPoints": 66
+    },
+    {
+      "stator": "1408",
+      "kv": 3950,
+      "anonymousVariants": 1,
+      "benchPoints": 66
+    },
+    {
+      "stator": "1506",
+      "kv": 4300,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1507",
+      "kv": 1550,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1507",
+      "kv": 1900,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1507",
+      "kv": 2650,
+      "anonymousVariants": 1,
+      "benchPoints": 36
+    },
+    {
+      "stator": "1507",
+      "kv": 2680,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "1507",
+      "kv": 2700,
+      "anonymousVariants": 1,
+      "benchPoints": 33
+    },
+    {
+      "stator": "1507",
+      "kv": 2800,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1507",
+      "kv": 3100,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1507",
+      "kv": 3750,
+      "anonymousVariants": 1,
+      "benchPoints": 9
+    },
+    {
+      "stator": "1507",
+      "kv": 3800,
+      "anonymousVariants": 2,
+      "benchPoints": 49
+    },
+    {
+      "stator": "1507",
+      "kv": 4000,
+      "anonymousVariants": 1,
+      "benchPoints": 17
+    },
+    {
+      "stator": "1507",
+      "kv": 4150,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1507",
+      "kv": 4200,
+      "anonymousVariants": 1,
+      "benchPoints": 14
+    },
+    {
+      "stator": "1604",
+      "kv": 2850,
+      "anonymousVariants": 1,
+      "benchPoints": 5
+    },
+    {
+      "stator": "1604",
+      "kv": 3800,
+      "anonymousVariants": 1,
+      "benchPoints": 5
+    },
+    {
+      "stator": "1605",
+      "kv": 1800,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1605",
+      "kv": 2050,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1605",
+      "kv": 2450,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1605",
+      "kv": 2800,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1605",
+      "kv": 3350,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1605",
+      "kv": 3600,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1605",
+      "kv": 3650,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "1605",
+      "kv": 3800,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "1605",
+      "kv": 3900,
+      "anonymousVariants": 1,
+      "benchPoints": 12
+    },
+    {
+      "stator": "1804",
+      "kv": 2400,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "1804",
+      "kv": 2450,
+      "anonymousVariants": 2,
+      "benchPoints": 16
+    },
+    {
+      "stator": "1804",
+      "kv": 3400,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "1804",
+      "kv": 3500,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2004",
+      "kv": 1600,
+      "anonymousVariants": 1,
+      "benchPoints": 28
+    },
+    {
+      "stator": "2004",
+      "kv": 1700,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2004",
+      "kv": 1800,
+      "anonymousVariants": 2,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2004",
+      "kv": 2000,
+      "anonymousVariants": 1,
+      "benchPoints": 35
+    },
+    {
+      "stator": "2004",
+      "kv": 2400,
+      "anonymousVariants": 1,
+      "benchPoints": 35
+    },
+    {
+      "stator": "2004",
+      "kv": 3000,
+      "anonymousVariants": 1,
+      "benchPoints": 28
+    },
+    {
+      "stator": "2004",
+      "kv": 3150,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2006",
+      "kv": 1850,
+      "anonymousVariants": 1,
+      "benchPoints": 24
+    },
+    {
+      "stator": "2006",
+      "kv": 1960,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2006",
+      "kv": 2100,
+      "anonymousVariants": 1,
+      "benchPoints": 18
+    },
+    {
+      "stator": "2006",
+      "kv": 2150,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2006",
+      "kv": 2500,
+      "anonymousVariants": 1,
+      "benchPoints": 18
+    },
+    {
+      "stator": "2006",
+      "kv": 2750,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2006",
+      "kv": 3450,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2010",
+      "kv": 1911,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2104",
+      "kv": 1800,
+      "anonymousVariants": 1,
+      "benchPoints": 18
+    },
+    {
+      "stator": "2104",
+      "kv": 3000,
+      "anonymousVariants": 1,
+      "benchPoints": 18
+    },
+    {
+      "stator": "2105.5",
+      "kv": 1850,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2105.5",
+      "kv": 2650,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2105.5",
+      "kv": 2950,
+      "anonymousVariants": 1,
+      "benchPoints": 19
+    },
+    {
+      "stator": "2105.5",
+      "kv": 3600,
+      "anonymousVariants": 1,
+      "benchPoints": 14
+    },
+    {
+      "stator": "2107.5",
+      "kv": 1980,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2107.5",
+      "kv": 2080,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2107.5",
+      "kv": 2480,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2203.5",
+      "kv": 1500,
+      "anonymousVariants": 1,
+      "benchPoints": 44
+    },
+    {
+      "stator": "2203.5",
+      "kv": 2850,
+      "anonymousVariants": 1,
+      "benchPoints": 77
+    },
+    {
+      "stator": "2203.5",
+      "kv": 3550,
+      "anonymousVariants": 1,
+      "benchPoints": 55
+    },
+    {
+      "stator": "2204.5",
+      "kv": 1900,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2204.5",
+      "kv": 2300,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2204.5",
+      "kv": 2750,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2204.5",
+      "kv": 3500,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2205",
+      "kv": 2140,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2205",
+      "kv": 2300,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2206.5",
+      "kv": 1860,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2206.5",
+      "kv": 2020,
+      "anonymousVariants": 1,
+      "benchPoints": 18
+    },
+    {
+      "stator": "2206.5",
+      "kv": 2420,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2206.6",
+      "kv": 1980,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2206.6",
+      "kv": 2100,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2206.6",
+      "kv": 2160,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2207",
+      "kv": 1500,
+      "anonymousVariants": 1,
+      "benchPoints": 40
+    },
+    {
+      "stator": "2207",
+      "kv": 1570,
+      "anonymousVariants": 1,
+      "benchPoints": 10
+    },
+    {
+      "stator": "2207",
+      "kv": 1590,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 1700,
+      "anonymousVariants": 2,
+      "benchPoints": 36
+    },
+    {
+      "stator": "2207",
+      "kv": 1720,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2207",
+      "kv": 1750,
+      "anonymousVariants": 5,
+      "benchPoints": 69
+    },
+    {
+      "stator": "2207",
+      "kv": 1800,
+      "anonymousVariants": 2,
+      "benchPoints": 24
+    },
+    {
+      "stator": "2207",
+      "kv": 1850,
+      "anonymousVariants": 2,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 1855,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 1860,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2207",
+      "kv": 1900,
+      "anonymousVariants": 2,
+      "benchPoints": 32
+    },
+    {
+      "stator": "2207",
+      "kv": 1920,
+      "anonymousVariants": 1,
+      "benchPoints": 14
+    },
+    {
+      "stator": "2207",
+      "kv": 1950,
+      "anonymousVariants": 7,
+      "benchPoints": 101
+    },
+    {
+      "stator": "2207",
+      "kv": 1960,
+      "anonymousVariants": 8,
+      "benchPoints": 64
+    },
+    {
+      "stator": "2207",
+      "kv": 2005,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2020,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2207",
+      "kv": 2040,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2207",
+      "kv": 2050,
+      "anonymousVariants": 6,
+      "benchPoints": 63
+    },
+    {
+      "stator": "2207",
+      "kv": 2060,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2207",
+      "kv": 2080,
+      "anonymousVariants": 1,
+      "benchPoints": 10
+    },
+    {
+      "stator": "2207",
+      "kv": 2100,
+      "anonymousVariants": 3,
+      "benchPoints": 68
+    },
+    {
+      "stator": "2207",
+      "kv": 2111,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2120,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2207",
+      "kv": 2150,
+      "anonymousVariants": 1,
+      "benchPoints": 30
+    },
+    {
+      "stator": "2207",
+      "kv": 2160,
+      "anonymousVariants": 2,
+      "benchPoints": 40
+    },
+    {
+      "stator": "2207",
+      "kv": 2200,
+      "anonymousVariants": 1,
+      "benchPoints": 30
+    },
+    {
+      "stator": "2207",
+      "kv": 2400,
+      "anonymousVariants": 3,
+      "benchPoints": 44
+    },
+    {
+      "stator": "2207",
+      "kv": 2450,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2207",
+      "kv": 2500,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2207",
+      "kv": 2550,
+      "anonymousVariants": 3,
+      "benchPoints": 69
+    },
+    {
+      "stator": "2207",
+      "kv": 2700,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2207",
+      "kv": 2750,
+      "anonymousVariants": 2,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2207.3",
+      "kv": 1975,
+      "anonymousVariants": 1,
+      "benchPoints": 18
+    },
+    {
+      "stator": "2207.3",
+      "kv": 2125,
+      "anonymousVariants": 1,
+      "benchPoints": 18
+    },
+    {
+      "stator": "2207.3",
+      "kv": 2725,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1400,
+      "anonymousVariants": 1,
+      "benchPoints": 6
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1750,
+      "anonymousVariants": 3,
+      "benchPoints": 98
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1860,
+      "anonymousVariants": 2,
+      "benchPoints": 32
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1900,
+      "anonymousVariants": 2,
+      "benchPoints": 36
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1930,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1950,
+      "anonymousVariants": 4,
+      "benchPoints": 118
+    },
+    {
+      "stator": "2207.5",
+      "kv": 1960,
+      "anonymousVariants": 2,
+      "benchPoints": 40
+    },
+    {
+      "stator": "2207.5",
+      "kv": 2020,
+      "anonymousVariants": 2,
+      "benchPoints": 30
+    },
+    {
+      "stator": "2207.5",
+      "kv": 2400,
+      "anonymousVariants": 1,
+      "benchPoints": 18
+    },
+    {
+      "stator": "2207.5",
+      "kv": 2500,
+      "anonymousVariants": 2,
+      "benchPoints": 12
+    },
+    {
+      "stator": "2207.5",
+      "kv": 2550,
+      "anonymousVariants": 3,
+      "benchPoints": 98
+    },
+    {
+      "stator": "2208",
+      "kv": 1750,
+      "anonymousVariants": 2,
+      "benchPoints": 84
+    },
+    {
+      "stator": "2208",
+      "kv": 1850,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2208",
+      "kv": 1950,
+      "anonymousVariants": 2,
+      "benchPoints": 76
+    },
+    {
+      "stator": "2208",
+      "kv": 2450,
+      "anonymousVariants": 2,
+      "benchPoints": 52
+    },
+    {
+      "stator": "2306",
+      "kv": 1500,
+      "anonymousVariants": 1,
+      "benchPoints": 40
+    },
+    {
+      "stator": "2306",
+      "kv": 1700,
+      "anonymousVariants": 3,
+      "benchPoints": 36
+    },
+    {
+      "stator": "2306",
+      "kv": 1750,
+      "anonymousVariants": 2,
+      "benchPoints": 15
+    },
+    {
+      "stator": "2306",
+      "kv": 1755,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2306",
+      "kv": 1800,
+      "anonymousVariants": 1,
+      "benchPoints": 24
+    },
+    {
+      "stator": "2306",
+      "kv": 1860,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2306",
+      "kv": 1900,
+      "anonymousVariants": 2,
+      "benchPoints": 32
+    },
+    {
+      "stator": "2306",
+      "kv": 1950,
+      "anonymousVariants": 3,
+      "benchPoints": 103
+    },
+    {
+      "stator": "2306",
+      "kv": 2100,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2306",
+      "kv": 2400,
+      "anonymousVariants": 3,
+      "benchPoints": 80
+    },
+    {
+      "stator": "2306",
+      "kv": 2450,
+      "anonymousVariants": 2,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2306",
+      "kv": 2500,
+      "anonymousVariants": 1,
+      "benchPoints": 24
+    },
+    {
+      "stator": "2306",
+      "kv": 2550,
+      "anonymousVariants": 2,
+      "benchPoints": 59
+    },
+    {
+      "stator": "2306",
+      "kv": 2555,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2306.3",
+      "kv": 1700,
+      "anonymousVariants": 1,
+      "benchPoints": 15
+    },
+    {
+      "stator": "2306.3",
+      "kv": 2500,
+      "anonymousVariants": 1,
+      "benchPoints": 15
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1400,
+      "anonymousVariants": 1,
+      "benchPoints": 12
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1750,
+      "anonymousVariants": 2,
+      "benchPoints": 40
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1850,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1860,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1900,
+      "anonymousVariants": 2,
+      "benchPoints": 46
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1950,
+      "anonymousVariants": 2,
+      "benchPoints": 77
+    },
+    {
+      "stator": "2306.5",
+      "kv": 1960,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2306.5",
+      "kv": 2400,
+      "anonymousVariants": 2,
+      "benchPoints": 69
+    },
+    {
+      "stator": "2306.5",
+      "kv": 2450,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2306.5",
+      "kv": 2550,
+      "anonymousVariants": 2,
+      "benchPoints": 60
+    },
+    {
+      "stator": "2306.8",
+      "kv": 1950,
+      "anonymousVariants": 1,
+      "benchPoints": 15
+    },
+    {
+      "stator": "2306.8",
+      "kv": 2150,
+      "anonymousVariants": 1,
+      "benchPoints": 15
+    },
+    {
+      "stator": "2307",
+      "kv": 1750,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2307",
+      "kv": 1950,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2307.3",
+      "kv": 1960,
+      "anonymousVariants": 1,
+      "benchPoints": 24
+    },
+    {
+      "stator": "2307.3",
+      "kv": 2060,
+      "anonymousVariants": 1,
+      "benchPoints": 24
+    },
+    {
+      "stator": "2406",
+      "kv": 1550,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2406",
+      "kv": 1800,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2406",
+      "kv": 1850,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2406",
+      "kv": 1860,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2406",
+      "kv": 1950,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2406",
+      "kv": 2080,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2407",
+      "kv": 1700,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2407",
+      "kv": 1750,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2505",
+      "kv": 1850,
+      "anonymousVariants": 1,
+      "benchPoints": 48
+    },
+    {
+      "stator": "2506",
+      "kv": 1500,
+      "anonymousVariants": 2,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2506",
+      "kv": 1850,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2507",
+      "kv": 1200,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2507",
+      "kv": 1500,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2507",
+      "kv": 1750,
+      "anonymousVariants": 2,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2507",
+      "kv": 1850,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2507",
+      "kv": 2200,
+      "anonymousVariants": 2,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2510",
+      "kv": 930,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2510",
+      "kv": 1030,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2510",
+      "kv": 1250,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2510",
+      "kv": 1380,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1300,
+      "anonymousVariants": 3,
+      "benchPoints": 30
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1350,
+      "anonymousVariants": 2,
+      "benchPoints": 28
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1460,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1500,
+      "anonymousVariants": 1,
+      "benchPoints": 33
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1700,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1750,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1800,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1850,
+      "anonymousVariants": 1,
+      "benchPoints": 9
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1920,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2806.5",
+      "kv": 1950,
+      "anonymousVariants": 1,
+      "benchPoints": 33
+    },
+    {
+      "stator": "2807",
+      "kv": 1300,
+      "anonymousVariants": 3,
+      "benchPoints": 29
+    },
+    {
+      "stator": "2807",
+      "kv": 1400,
+      "anonymousVariants": 1,
+      "benchPoints": 14
+    },
+    {
+      "stator": "2807",
+      "kv": 1500,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2807",
+      "kv": 1700,
+      "anonymousVariants": 3,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2807",
+      "kv": 1950,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2808",
+      "kv": 1300,
+      "anonymousVariants": 2,
+      "benchPoints": 28
+    },
+    {
+      "stator": "2808",
+      "kv": 1350,
+      "anonymousVariants": 3,
+      "benchPoints": 32
+    },
+    {
+      "stator": "2808",
+      "kv": 1500,
+      "anonymousVariants": 3,
+      "benchPoints": 36
+    },
+    {
+      "stator": "2808",
+      "kv": 1550,
+      "anonymousVariants": 1,
+      "benchPoints": 24
+    },
+    {
+      "stator": "2808",
+      "kv": 1900,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2808",
+      "kv": 1950,
+      "anonymousVariants": 1,
+      "benchPoints": 20
+    },
+    {
+      "stator": "2809",
+      "kv": 1280,
+      "anonymousVariants": 1,
+      "benchPoints": 12
+    },
+    {
+      "stator": "2810",
+      "kv": 900,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2810",
+      "kv": 1100,
+      "anonymousVariants": 1,
+      "benchPoints": 30
+    },
+    {
+      "stator": "2810",
+      "kv": 1180,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2810",
+      "kv": 1350,
+      "anonymousVariants": 2,
+      "benchPoints": 38
+    },
+    {
+      "stator": "2810",
+      "kv": 1500,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "2812",
+      "kv": 900,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2812",
+      "kv": 1115,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "2812",
+      "kv": 1150,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "2812",
+      "kv": 1300,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "3110",
+      "kv": 900,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "3115",
+      "kv": 400,
+      "anonymousVariants": 3,
+      "benchPoints": 18
+    },
+    {
+      "stator": "3115",
+      "kv": 480,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "3115",
+      "kv": 500,
+      "anonymousVariants": 1,
+      "benchPoints": 0
+    },
+    {
+      "stator": "3115",
+      "kv": 640,
+      "anonymousVariants": 3,
+      "benchPoints": 72
+    },
+    {
+      "stator": "3115",
+      "kv": 800,
+      "anonymousVariants": 1,
+      "benchPoints": 24
+    },
+    {
+      "stator": "3115",
+      "kv": 900,
+      "anonymousVariants": 4,
+      "benchPoints": 81
+    },
+    {
+      "stator": "3115",
+      "kv": 970,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "3115",
+      "kv": 1050,
+      "anonymousVariants": 3,
+      "benchPoints": 58
+    },
+    {
+      "stator": "3115",
+      "kv": 1200,
+      "anonymousVariants": 1,
+      "benchPoints": 16
+    },
+    {
+      "stator": "3115",
+      "kv": 1520,
+      "anonymousVariants": 1,
+      "benchPoints": 8
+    },
+    {
+      "stator": "3120",
+      "kv": 500,
+      "anonymousVariants": 2,
+      "benchPoints": 10
+    },
+    {
+      "stator": "3120",
+      "kv": 700,
+      "anonymousVariants": 1,
+      "benchPoints": 40
+    }
+  ]
+}

@@ -1,0 +1,900 @@
+{
+  "schemaVersion": "1.0.0",
+  "libraryVersion": "0.1.0",
+  "items": [
+    {
+      "diameterIn": 1.22,
+      "pitchIn": 1,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 1.4,
+      "pitchIn": 0.96,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 1.6,
+      "pitchIn": 0.8,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 1.6,
+      "pitchIn": 1,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 1.6,
+      "pitchIn": 1,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 1.6,
+      "pitchIn": 1.1,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 1.6,
+      "pitchIn": 1.2,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2,
+      "pitchIn": 0.9,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2,
+      "pitchIn": 1.5,
+      "blades": 6,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2,
+      "pitchIn": 1.9,
+      "blades": 5,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2,
+      "pitchIn": 2,
+      "blades": 4,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2,
+      "pitchIn": 2.3,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2.2,
+      "pitchIn": 1.6,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 2.5,
+      "pitchIn": 1.2,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2.5,
+      "pitchIn": 1.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2.5,
+      "pitchIn": 1.5,
+      "blades": 6,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2.5,
+      "pitchIn": 2,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2.5,
+      "pitchIn": 2.4,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2.5,
+      "pitchIn": 2.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2.5,
+      "pitchIn": 3,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 2.9,
+      "pitchIn": 2.5,
+      "blades": 4,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2.9,
+      "pitchIn": 2.7,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2.9,
+      "pitchIn": 2.9,
+      "blades": 4,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2.95,
+      "pitchIn": 3,
+      "blades": 6,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 2.95,
+      "pitchIn": 3.6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3,
+      "pitchIn": 1.5,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3,
+      "pitchIn": 1.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3,
+      "pitchIn": 1.6,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 3,
+      "pitchIn": 1.8,
+      "blades": 2,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 3,
+      "pitchIn": 1.8,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3,
+      "pitchIn": 2,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3,
+      "pitchIn": 2.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3,
+      "pitchIn": 2.6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3,
+      "pitchIn": 3,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3,
+      "pitchIn": 3,
+      "blades": 3,
+      "anonymousVariants": 3
+    },
+    {
+      "diameterIn": 3,
+      "pitchIn": 3,
+      "blades": 5,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 3,
+      "pitchIn": 3.2,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3.5,
+      "pitchIn": 2,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 3.5,
+      "pitchIn": 2.2,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3.5,
+      "pitchIn": 2.2,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3.5,
+      "pitchIn": 2.5,
+      "blades": 3,
+      "anonymousVariants": 3
+    },
+    {
+      "diameterIn": 3.5,
+      "pitchIn": 2.8,
+      "blades": 3,
+      "anonymousVariants": 3
+    },
+    {
+      "diameterIn": 3.5,
+      "pitchIn": 3,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3.5,
+      "pitchIn": 3,
+      "blades": 4,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 3.6,
+      "pitchIn": 3,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4,
+      "pitchIn": 2,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4,
+      "pitchIn": 2.2,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4,
+      "pitchIn": 2.3,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4,
+      "pitchIn": 2.4,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4,
+      "pitchIn": 2.5,
+      "blades": 2,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 4,
+      "pitchIn": 3,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4,
+      "pitchIn": 3.8,
+      "blades": 5,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4,
+      "pitchIn": 4.3,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4,
+      "pitchIn": 5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4,
+      "pitchIn": 5.2,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4.8,
+      "pitchIn": 3.6,
+      "blades": 4,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4.9,
+      "pitchIn": 2.6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4.9,
+      "pitchIn": 3.2,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4.9,
+      "pitchIn": 3.3,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4.9,
+      "pitchIn": 3.4,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4.9,
+      "pitchIn": 3.5,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 4.9,
+      "pitchIn": 3.7,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 4.9,
+      "pitchIn": 4,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 4.9,
+      "pitchIn": 4.3,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5,
+      "pitchIn": 3.1,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5,
+      "pitchIn": 3.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5,
+      "pitchIn": 3.7,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 5,
+      "pitchIn": 4,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5,
+      "pitchIn": 4,
+      "blades": 6,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5,
+      "pitchIn": 4.3,
+      "blades": 3,
+      "anonymousVariants": 3
+    },
+    {
+      "diameterIn": 5,
+      "pitchIn": 4.5,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 5,
+      "pitchIn": 4.6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 2.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 2.7,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 2.75,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 2.8,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 2.9,
+      "blades": 3,
+      "anonymousVariants": 3
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 2.92,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 3.1,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 3.3,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 3.5,
+      "blades": 3,
+      "anonymousVariants": 4
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 3.6,
+      "blades": 3,
+      "anonymousVariants": 4
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 3.7,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 3.8,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 4,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 4.2,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 4.55,
+      "blades": 4,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 4.6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 4.65,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 4.9,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.1,
+      "pitchIn": 5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.15,
+      "pitchIn": 3.6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.2,
+      "pitchIn": 2.6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.2,
+      "pitchIn": 3.2,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.2,
+      "pitchIn": 3.6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.5,
+      "pitchIn": 2.2,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.5,
+      "pitchIn": 3.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 5.5,
+      "pitchIn": 3.6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 6,
+      "pitchIn": 2.6,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 6,
+      "pitchIn": 3,
+      "blades": 3,
+      "anonymousVariants": 3
+    },
+    {
+      "diameterIn": 6,
+      "pitchIn": 3.8,
+      "blades": 4,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 6,
+      "pitchIn": 4,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 6,
+      "pitchIn": 4.2,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 6,
+      "pitchIn": 4.2,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 6,
+      "pitchIn": 4.3,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 6,
+      "pitchIn": 4.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 6,
+      "pitchIn": 4.8,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 7,
+      "pitchIn": 3.5,
+      "blades": 3,
+      "anonymousVariants": 3
+    },
+    {
+      "diameterIn": 7,
+      "pitchIn": 4,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 7,
+      "pitchIn": 4,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 7,
+      "pitchIn": 4.5,
+      "blades": 2,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 7,
+      "pitchIn": 4.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 7,
+      "pitchIn": 5,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 7,
+      "pitchIn": 5.5,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 7.1,
+      "pitchIn": 4,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 7.5,
+      "pitchIn": 3.7,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 7.5,
+      "pitchIn": 4.6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 8,
+      "pitchIn": 3.7,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 8,
+      "pitchIn": 4,
+      "blades": 3,
+      "anonymousVariants": 3
+    },
+    {
+      "diameterIn": 8,
+      "pitchIn": 4.3,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 8,
+      "pitchIn": 4.5,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 8,
+      "pitchIn": 5,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 8,
+      "pitchIn": 6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 8.5,
+      "pitchIn": 4,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 8.5,
+      "pitchIn": 5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 9,
+      "pitchIn": 4,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 9,
+      "pitchIn": 4.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 9,
+      "pitchIn": 4.6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 9,
+      "pitchIn": 5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 9.5,
+      "pitchIn": 5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 10,
+      "pitchIn": 4.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 10,
+      "pitchIn": 5,
+      "blades": 2,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 10,
+      "pitchIn": 5,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 10,
+      "pitchIn": 5.1,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 10,
+      "pitchIn": 5.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 10,
+      "pitchIn": 6,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 10.5,
+      "pitchIn": 5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 11,
+      "pitchIn": 4.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 11,
+      "pitchIn": 7,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 12,
+      "pitchIn": 7.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 13,
+      "pitchIn": 6.5,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 13,
+      "pitchIn": 7,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 13,
+      "pitchIn": 8,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 13,
+      "pitchIn": 9,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 13,
+      "pitchIn": 12,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 15,
+      "pitchIn": 10,
+      "blades": 3,
+      "anonymousVariants": 1
+    },
+    {
+      "diameterIn": 16,
+      "pitchIn": 8,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 17,
+      "pitchIn": 8,
+      "blades": 3,
+      "anonymousVariants": 2
+    },
+    {
+      "diameterIn": 18,
+      "pitchIn": 10,
+      "blades": 3,
+      "anonymousVariants": 1
+    }
+  ]
+}

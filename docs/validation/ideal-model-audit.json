@@ -1,0 +1,12 @@
+{
+  "libraryVersion": "0.1.0",
+  "knownGeometryPoints": 2943,
+  "idealToTabulatedPowerRatio": {
+    "min": 0.004101569177701292,
+    "median": 0.3914336992971225,
+    "max": 5.639248293208726
+  },
+  "ratiosAboveOne": 103,
+  "interpretation": "Diagnostic under standard-density free-air ideal assumptions only. Table conditions are unknown; ratios do not establish a universal correction or independent flight accuracy. Ratios above one show unresolved incompatibility with these assumptions or data.",
+  "calibratedDefaultLoss": null
+}

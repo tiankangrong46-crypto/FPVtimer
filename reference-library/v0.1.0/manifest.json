@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "libraryVersion": "0.1.0",
+  "generated": "2026-10-18",
+  "purpose": "offline-anonymous-category-candidates",
+  "units": {
+    "stator": "mm-size-code",
+    "kv": "rpm-per-volt",
+    "diameterIn": "inch",
+    "pitchIn": "inch",
+    "thrustGf": "gram-force",
+    "voltageV": "V",
+    "currentA": "A",
+    "electricalPowerW": "W"
+  },
+  "capabilities": {
+    "manufacturerFreeRecords": true,
+    "provenanceFreeRecords": true,
+    "exactProductMatching": false,
+    "formalEnduranceRating": false,
+    "validatedStyleMultipliers": false,
+    "independentAccuracyValidated": false
+  },
+  "counts": {
+    "inputMotors": 200,
+    "inputPoints": 6161,
+    "invalidStatorPoints": 0,
+    "invalidNumericPoints": 10,
+    "unsupportedCellPoints": 116,
+    "duplicatePoints": 0,
+    "retainedPoints": 6035,
+    "motorCategories": 289,
+    "propellerGeometries": 149,
+    "anonymousCurves": 1054,
+    "knownGeometryCurves": 511,
+    "constantVoltageSegments": 519,
+    "flightReferences": 0,
+    "styleCalibrations": 0
+  },
+  "files": [
+    {
+      "name": "motor-catalog.json",
+      "sha256": "b67a53f2e140131d8de156d997869ac003c29bbbb86bf3d904565cdad126d594",
+      "bytes": 31625,
+      "records": 289
+    },
+    {
+      "name": "propeller-catalog.json",
+      "sha256": "01446e79d6736556f3afde34a583fd5254643927e8d4a12fa49e956d33644673",
+      "bytes": 15942,
+      "records": 149
+    },
+    {
+      "name": "bench-curves.json",
+      "sha256": "f36f00364f08d4ff841ab9801ee28183a696b826bdd53145502e1dc443d78a37",
+      "bytes": 1661292,
+      "records": 1054
+    },
+    {
+      "name": "constant-voltage-segments.json",
+      "sha256": "39328a922bc896fa19228a3122682b678c1f882352ffd07a539b2deaffa3725b",
+      "bytes": 422364,
+      "records": 519
+    },
+    {
+      "name": "flight-references.json",
+      "sha256": "05966d011ed34bb169a15b8177ec54f2784ae5d6e1e0077d0cd61a84b5aff2ef",
+      "bytes": 75,
+      "records": 0
+    },
+    {
+      "name": "style-calibrations.json",
+      "sha256": "05966d011ed34bb169a15b8177ec54f2784ae5d6e1e0077d0cd61a84b5aff2ef",
+      "bytes": 75,
+      "records": 0
+    },
+    {
+      "name": "coverage.json",
+      "sha256": "1e5fbb5004bed0e04364708b135753bd1d69c718e1b0b2df42a7f3cfd3aebaf6",
+      "bytes": 50731,
+      "records": 289
+    }
+  ]
+}
