@@ -9,7 +9,7 @@
 3. 阅读[0.7.2验收记录](outputs/v0.7.2/验收记录.md)和[实际EXE检查记录](outputs/v0.7.2/desktop-checks.json)，区分测试对象、已有证据与未验证项。历史验收不作为当前新改动的通过证据。
 4. 查看`git status --short`、版本文件、待改源码和对应测试，再修改。
 
-项目现迁入GitHub私有仓库`tiankangrong46-crypto/FPVtimer`；源码和验收说明提交Git，EXE在Release `v0.7.2`分发。用户2026-10-19明确授权本地仅保留最新版，旧版本交付与临时缓存已获清理授权，此授权替代历史“保留所有旧包”的要求；本次删除被执行环境自动审批拦截，旧文件实际仍保留。保留当前源码、0.7.2交付、工具链、参考库与算法依据；禁止用`git clean`、强制重置或无关删除修复环境。版本以后可能变化，恢复时以实际文件核对，不机械沿用本页版本。
+项目现迁入GitHub私有仓库`tiankangrong46-crypto/FPVtimer`；源码和验收说明提交Git，EXE在Release `v0.7.2`分发。用户2026-10-19明确授权本地仅保留最新版，旧版本交付与临时缓存已获清理授权，此授权替代历史“保留所有旧包”的要求；首次删除曾被执行环境拦截；用户要求重试后已清理旧交付、旧验收profile、旧日志及历史副本，并清理构建目录中的10个旧安装包，共释放约4.68GiB。保留当前源码、0.7.2交付、工具链、参考库与算法依据；禁止用`git clean`、强制重置或无关删除修复环境。版本以后可能变化，恢复时以实际文件核对，不机械沿用本页版本。
 
 - 使用简短中文，先说明结果，再说必要原因；工作中及时报告重要进展。
 - 先判断是界面、校验／计算，还是窗口／打包问题。本项目没有独立网络后端，不把计算问题笼统归为Rust问题。若已有前后端分工，说明另一方需配合的事项；无需因此创建额外agent。
@@ -130,11 +130,11 @@ npm／Cargo锁定依赖，TypeScript固定5.9.3；原生绑定错误先查架构
 
 NSIS必须`webviewInstallMode.type=offlineInstaller`，包含完整WebView2离线安装器；downloadBootstrapper／embedBootstrapper需联网，不等价。独立EXE不含WebView2。仅关闭本任务验证过路径的专用进程，不影响无关程序；背景启动使用`-WindowStyle Hidden`。
 
-实际EXE验收入口`scripts/desktop-smoke.mjs`调用`desktop-flight-scenario.mjs`，通过临时localhost:9224、专用profile连接真实WebView2，模拟网络离线。**启动前**检查端口空闲，运行后关闭专用EXE、恢复临时环境变量并确认端口释放；步骤见README。`FPV_DESKTOP_EXE`应指本版，`FPV_OUTPUT_DIR`应指新的检查目录以免覆盖历史报告／截图。禁止卸载WebView2、修改防火墙、读取个人profile或把调试端口写入产品配置。旧archive脚本只作历史。
+实际EXE验收入口`scripts/desktop-smoke.mjs`调用`desktop-flight-scenario.mjs`，通过临时localhost:9224、专用profile连接真实WebView2，模拟网络离线。**启动前**检查端口空闲，运行后关闭专用EXE、恢复临时环境变量并确认端口释放；步骤见README。`FPV_DESKTOP_EXE`应指本版，`FPV_OUTPUT_DIR`应指新的检查目录以免覆盖历史报告／截图。禁止卸载WebView2、修改防火墙、读取个人profile或把调试端口写入产品配置。旧archive脚本与重复README／AGENTS快照已清理，可从Git历史追溯。
 
 ## 现有交付与证据边界
 
-**当前0.7.2交付（2026-10-19）**：仅淡蓝主题与发行版本调整，算法沿用0.7.1；已通过本次149项计算、24项页面、类型检查、Rust／NSIS构建及28项实际EXE离线模拟检查。见[0.7.2验收记录](outputs/v0.7.2/验收记录.md)、[对象SHA与检查JSON](outputs/v0.7.2/desktop-checks.json)、[独立EXE](https://github.com/tiankangrong46-crypto/FPVtimer/releases/download/v0.7.2/FPV-Endurance-0.7.2.exe)、[安装包](https://github.com/tiankangrong46-crypto/FPVtimer/releases/download/v0.7.2/FPV-Endurance-0.7.2-x64-setup.exe)和[许可](outputs/v0.7.2/LICENSE-ATTRIBUTION.md)。旧版交付清理被执行环境拦截，尚未删除。未执行安装包；实机精度、干净系统安装与跨系统兼容等未验证项保留。验收结束专用进程关闭、9224不监听是本次快照。
+**当前0.7.2交付（2026-10-19）**：仅淡蓝主题与发行版本调整，算法沿用0.7.1；已通过本次149项计算、24项页面、类型检查、Rust／NSIS构建及28项实际EXE离线模拟检查。见[0.7.2验收记录](outputs/v0.7.2/验收记录.md)、[对象SHA与检查JSON](outputs/v0.7.2/desktop-checks.json)、[独立EXE](https://github.com/tiankangrong46-crypto/FPVtimer/releases/download/v0.7.2/FPV-Endurance-0.7.2.exe)、[安装包](https://github.com/tiankangrong46-crypto/FPVtimer/releases/download/v0.7.2/FPV-Endurance-0.7.2-x64-setup.exe)和[许可](outputs/v0.7.2/LICENSE-ATTRIBUTION.md)。旧版交付已按用户后续授权清理。未执行安装包；实机精度、干净系统安装与跨系统兼容等未验证项保留。验收结束专用进程关闭、9224不监听是本次快照。
 
 以下为0.7.2既有验收证据，不是GitHub上传／清理任务重新执行的结果：
 
@@ -147,7 +147,7 @@ NSIS必须`webviewInstallMode.type=offlineInstaller`，包含完整WebView2离�
 
 独立EXE SHA256：`3DDF66C0E072544D26E5B739537C9EEE07E83DF9BC39377C86CAC14A3D09BC41`。安装包SHA256：`BB278BB7794F2E8F7D26F1471FFE5CE03B400DA0D2AD4E01021AFEF9EC7C20C6`。
 
-EXE本地在`outputs/v0.7.2/`，GitHub在[Release](https://github.com/tiankangrong46-crypto/FPVtimer/releases/tag/v0.7.2)，不将EXE提交Git。下载独立版时同时下载许可；安装包内含完整离线WebView2组件与独立许可。旧版输出目录未上传GitHub，删除被环境拦截，当前本地仍保留；算法版本说明仍保留作依据，不是其他可运行版本。
+EXE本地在`outputs/v0.7.2/`，GitHub在[Release](https://github.com/tiankangrong46-crypto/FPVtimer/releases/tag/v0.7.2)，不将EXE提交Git。下载独立版时同时下载许可；安装包内含完整离线WebView2组件与独立许可。旧版输出目录未上传GitHub，已从本地删除；算法版本说明仍保留作依据，不是其他可运行版本。
 
 上次验收的端口／进程状态仅是当时快照，需要时重新核实。仍未验证实机预测精度、用户系数校准、干净无WebView2电脑首次离线安装、本版安装／升级／卸载、Windows 10、ARM64／32位和全部缩放；应用未签名。
 

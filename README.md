@@ -6,7 +6,7 @@ Windows本地单页应用，Tauri 2 + Vue 3 + TypeScript + Vite，当前版本 *
 
 GitHub仓库：[FPVtimer](https://github.com/tiankangrong46-crypto/FPVtimer)；[下载0.7.2安装包／独立程序](https://github.com/tiankangrong46-crypto/FPVtimer/releases/tag/v0.7.2)。Git保存源码和验收说明，EXE通过Release分发，克隆仓库后需另行下载。
 
-接手先读[AGENTS.md](AGENTS.md)、[0.7.2发行说明](docs/RELEASE-0.7.2.md)、[0.7.1算法变更](docs/ALGORITHM-0.7.1.md)、[0.7.0完整规则](docs/ALGORITHM-0.7.0.md)和[本版验收记录](outputs/v0.7.2/验收记录.md)。0.7.2只调整配色及发行版本，算法沿用0.7.1；0.7.0文档中的旧花飞／竞速系数以0.7.1为准。算法历史说明作为依据保留；按用户2026-10-19授权，本地仅保留0.7.2交付，旧安装包与临时验收缓存已获清理授权，但删除命令被执行环境拦截，尚未清理。
+接手先读[AGENTS.md](AGENTS.md)、[0.7.2发行说明](docs/RELEASE-0.7.2.md)、[0.7.1算法变更](docs/ALGORITHM-0.7.1.md)、[0.7.0完整规则](docs/ALGORITHM-0.7.0.md)和[本版验收记录](outputs/v0.7.2/验收记录.md)。0.7.2只调整配色及发行版本，算法沿用0.7.1；0.7.0文档中的旧花飞／竞速系数以0.7.1为准。算法历史说明作为依据保留；按用户2026-10-19授权，本地仅保留0.7.2交付，旧安装包与临时验收缓存已清理，outputs仅保留v0.7.2。
 
 ## 运行与使用
 
@@ -68,7 +68,7 @@ T工况 = T基础 × 结构时间保留系数 × 飞行方式时间系数
 - `validation.ts`／`types.ts`：原始字符串、精度、未知、非法、数据类型和默认值。
 - `src/data/reference-library.ts`直接引用`reference-library/v0.1.0/`的7份JSON和manifest；不复制产品库、无运行时下载。
 - `tests/`：计算、边界、真实电流单位换算和页面测试；人工夹具不进入产品参考。
-- `scripts/desktop-smoke.mjs`调用`desktop-flight-scenario.mjs`，只连接专用实际EXE WebView2，旧脚本留在archive中。
+- `scripts/desktop-smoke.mjs`调用`desktop-flight-scenario.mjs`，只连接专用实际EXE WebView2，旧验收脚本已清理，历史副本可从Git记录追溯。
 
 压降仍需正内阻、明确直流／充电器方式设备及有依据同一时段平均电流；只是平均电阻项粗估，不能代表峰值，充电器测量不确定性需保留。回弹需要同次停桨、同设备、前后时点及期间电量变化可忽略等依据；不足时最多显示读数差，不作回弹解释。电池分析补充字段均在可选电池分析；机架最大桨径属于飞机配置。无账号、云服务、历史数据库或联网AI。
 
@@ -148,6 +148,6 @@ try {
 }
 ```
 
-最近一次0.7.2验收（2026-10-19）：149项计算、24项页面、类型检查及28项实际EXE离线模拟检查通过，详见[验收记录](outputs/v0.7.2/验收记录.md)和[对象SHA／检查JSON](outputs/v0.7.2/desktop-checks.json)。已重新构建淡蓝主题独立EXE及包含完整WebView2离线组件的安装包，新增实际EXE版本与配色检查；未执行安装；旧版交付已获用户后续清理授权，但删除被执行环境拦截，当前仍保留。
+最近一次0.7.2验收（2026-10-19）：149项计算、24项页面、类型检查及28项实际EXE离线模拟检查通过，详见[验收记录](outputs/v0.7.2/验收记录.md)和[对象SHA／检查JSON](outputs/v0.7.2/desktop-checks.json)。已重新构建淡蓝主题独立EXE及包含完整WebView2离线组件的安装包，新增实际EXE版本与配色检查；未执行安装；旧版交付已按用户后续授权清理，outputs仅保留v0.7.2。
 
 尚无实机校准结构时间、方式系数或整机续航精度；未验证全新无WebView2系统首次离线安装、本版安装／升级／卸载、Windows 10、ARM64、32位或全部缩放。离线检查是WebView2网络模拟，不是物理断网或完整系统网络审计。不要将旧版安装结论沿用于本版。
