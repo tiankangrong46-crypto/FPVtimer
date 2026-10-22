@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "identifier": "com.local.fpvendurance",
+  "app": {
+    "windows": [{
+      "title": "FPV Endurance",
+      "backgroundColor": "#eef7fd"
+    }]
+  },
+  "bundle": {
+    "targets": "all",
+    "icon": ["icons/128x128.png", "icons/128x128@2x.png"],
+    "android": {
+      "minSdkVersion": 28,
+      "versionCode": 7005,
+      "debugApplicationIdSuffix": ".debug"
+    }
+  }
+}

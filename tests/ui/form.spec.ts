@@ -3,6 +3,42 @@ const fields = {weight:'650.5',wheelbase:'225',kv:'1750',diameter:'5.1',pitch:'3
 async function fill(page:Page) { for (const [id,value] of Object.entries(fields)) await page.locator(`#${id}`).fill(value); }
 test.beforeEach(async ({page}) => { await page.goto('http://127.0.0.1:1420'); await page.getByRole('radio',{name:'标准评估',exact:true}).check(); });
 
+test('已选定的logo在桌面和窄屏加载完整，浏览器图标可离线读取',async({page})=>{
+  const logo=page.getByRole('img',{name:'FPV Endurance 标志'});
+  await expect(logo).toBeVisible();
+  expect(await logo.evaluate((img:HTMLImageElement)=>img.complete&&img.naturalWidth===1254&&img.naturalHeight===1254)).toBeTruthy();
+  const favicon=page.locator('link[rel="icon"]');
+  const iconUrl=await favicon.evaluate((link:HTMLLinkElement)=>link.href);
+  const response=await page.request.get(iconUrl);expect(response.ok()).toBeTruthy();expect(response.headers()['content-type']).toContain('image/png');
+  for(const width of [1240,760,390]){
+    await page.setViewportSize({width,height:900});await expect(logo).toBeVisible();
+    const box=await logo.boundingBox();expect(box?.width).toBe(44);expect(box?.height).toBe(44);
+    expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+  }
+});
+
+test('手写字体离线加载，新标题完整，长规则默认折叠',async({page})=>{
+  await page.reload();
+  await page.evaluate(()=>document.fonts.ready);
+  await expect(page.locator('h1')).toHaveText('地球开始竖着转了，朋友们我们赤道大变了');
+  expect(await page.evaluate(async()=>(await document.fonts.load('16px "FPV WenKai"')).some(f=>f.status==='loaded'))).toBeTruthy();
+  await expect(page.locator('.mode-picker>.small-note')).toHaveCount(0);
+  await expect(page.locator('#aircraft').locator('..')).not.toContainText('最终时间×');
+  await expect(page.locator('#aircraft').locator('..')).toContainText('切换结构会恢复对应的默认参数');
+  await expect(page.locator('.model-guide>div')).not.toBeVisible();
+  for(const width of [1240,760,390]){
+    await page.setViewportSize({width,height:900});
+    await expect(page.locator('h1')).toBeVisible();
+    expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+  }
+  await page.locator('.model-guide>summary').click();
+  await expect(page.locator('.model-guide>div')).toBeVisible();
+  await expect(page.locator('.model-guide')).toContainText('花飞58%');
+  await expect(page.locator('.model-guide')).toContainText('竞速33%');
+  await page.locator('.model-guide>summary').click();
+  await expect(page.locator('.model-guide>div')).not.toBeVisible();
+});
+
 test('机架最大桨径限制用英寸，轴距仍为mm，超限只跳过理论参考',async({page})=>{
   await fill(page);await page.locator('#stator').fill('2306');await page.locator('#kv').fill('1850');await page.getByRole('radio',{name:'粗估模式',exact:true}).check();
   await page.locator('#frameMaxProp').fill('5');await page.getByRole('button',{name:'评估本次飞行'}).click();await expect(page.locator('.result-reason')).toContainText('5.1英寸超过');await expect(page.locator('.estimate-time')).toHaveCount(0);
@@ -149,7 +185,8 @@ test('匿名真实候选离线展示、保留测试电压与ID、不生成续航
   await expect(page.locator('.category-results')).toContainText('segment-f8ffeb9d6a64597e72c8');
   await expect(page.locator('.category-results')).toContainText('电调是否计入、装配、温度均未知');
   await expect(page.locator('.rating')).toHaveText('参考不足');await expect(page.locator('.reference-time')).toContainText('暂无可靠范围');
-  await expect(page.locator('body')).not.toContainText('https://');
+  // Legal attribution may contain URLs; anonymous candidate business rows must not.
+  await expect(page.locator('.category-results')).not.toContainText('https://');
   await page.locator('#kv').fill('23000.1');await expect(page.locator('.rating')).toHaveCount(0);
   await page.getByRole('button',{name:'评估本次飞行'}).click();await expect(page.locator('.candidate-row')).toHaveCount(0);
 });

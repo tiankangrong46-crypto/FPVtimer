@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=FPV Endurance Android, O=FPV Endurance, C=CN
+Signer #1 certificate SHA-256 digest: ae74c5320ba7260bb3ba25ff90f7b01cb1d47f20b8e2db8d74aba8f33f00ccc5
+Signer #1 certificate SHA-1 digest: 3ee389ce1797cbf77f66b399c2542727a08a6acc
+Signer #1 certificate MD5 digest: f8bda8ea8cdf00b6121d1b7ddae8d364
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 877a5e01a1c7115405595a363a1cf909ad063e5aa38035aa0ee7a21c93f37a9b
+Signer #1 public key SHA-1 digest: 537eaa1b0ee634f04632ec14da8f886787830cc3
+Signer #1 public key MD5 digest: c4dd5fd35354e4e94a8b96a1e466abc0

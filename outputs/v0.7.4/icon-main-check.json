@@ -1,0 +1,14 @@
+{
+  "exe": "C:\\Users\\Lingf\\Documents\\ChatGPT\\电池压降和内阻\\outputs\\v0.7.4\\FPV-Endurance-0.7.4.exe",
+  "sourceIco": "C:\\Users\\Lingf\\Documents\\ChatGPT\\电池压降和内阻\\src-tauri\\icons\\icon.ico",
+  "matchedSizes": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    256
+  ],
+  "allIconPayloadsMatch": true,
+  "method": "Read-only Win32 PE resources; compare every RT_ICON payload SHA256 with the selected ICO; no EXE execution or installer execution."
+}

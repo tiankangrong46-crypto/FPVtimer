@@ -1,20 +1,30 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "FPV Endurance",
-  "version": "0.7.2",
+  "version": "0.7.4",
   "identifier": "com.local.fpv-endurance",
-  "build": { "beforeDevCommand": "npm run dev", "devUrl": "http://localhost:1420", "beforeBuildCommand": "npm run build", "frontendDist": "../dist" },
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
   "app": {
-    "windows": [{ "title": "穿越机续航表现评估 v0.7.2", "width": 1240, "height": 900, "minWidth": 760, "minHeight": 600, "backgroundColor": "#eef7fd" }],
-    "security": { "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src ipc: http://ipc.localhost; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'", "capabilities": [] }
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src ipc: http://ipc.localhost; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'",
+      "capabilities": []
+    }
   },
   "bundle": {
-    "active": true, "targets": ["nsis"], "icon": ["icons/icon.ico"],
-    "shortDescription": "穿越机续航表现评估工具", "category": "Utility",
-    "resources": { "../reference-library/v0.1.0/LICENSE-ATTRIBUTION.md": "licenses/reference-library-0.1.0-LICENSE-ATTRIBUTION.md" },
-    "windows": {
-      "webviewInstallMode": { "type": "offlineInstaller", "silent": true },
-      "nsis": { "installMode": "currentUser", "languages": ["SimpChinese", "English"], "displayLanguageSelector": false }
+    "active": true,
+    "icon": [
+      "icons/icon.ico"
+    ],
+    "shortDescription": "穿越机续航表现评估工具",
+    "category": "Utility",
+    "resources": {
+      "../reference-library/v0.1.0/LICENSE-ATTRIBUTION.md": "licenses/reference-library-0.1.0-LICENSE-ATTRIBUTION.md",
+      "../src/assets/fonts/OFL.txt": "licenses/LXGW-WenKai-OFL.txt"
     }
   }
 }

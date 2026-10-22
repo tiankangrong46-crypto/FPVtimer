@@ -1,0 +1,11 @@
+{
+  "documentationOrMetadataUpdated": [
+    "Android\\v0.7.4-build7005\\installed-version.txt",
+    "Android\\v0.7.4-build7005\\安装说明.md"
+  ],
+  "checked": 63,
+  "temporaryDiagnosticsRemoved": [
+    "Android\\v0.7.4-build7005\\emulator-release\\ime-visible.txt"
+  ],
+  "unchangedBinaryDomainAndReference": true
+}

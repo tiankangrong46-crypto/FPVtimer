@@ -12,7 +12,10 @@ if (Test-Path -LiteralPath $taskLocalNode) {
     if (!(Test-Path -LiteralPath $taskNpmPath)) { throw 'npm CLI not found; install x64 Node.js with npm.' }
     # Use a relative batch path so legacy PowerShell/cmd code pages cannot corrupt a Chinese workspace path.
     $taskWrapper = '@echo off' + "`r`n" + '"%~dp0node.exe" "' + $taskNpmPath + '" %*' + "`r`n"
-    [System.IO.File]::WriteAllText((Join-Path $taskTools 'npm.cmd'), $taskWrapper, [System.Text.Encoding]::ASCII)
+    $taskWrapperPath = Join-Path $taskTools 'npm.cmd'
+    if (!(Test-Path -LiteralPath $taskWrapperPath) -or [System.IO.File]::ReadAllText($taskWrapperPath) -cne $taskWrapper) {
+        [System.IO.File]::WriteAllText($taskWrapperPath, $taskWrapper, [System.Text.Encoding]::ASCII)
+    }
     $env:PATH = $taskTools + ';' + $env:PATH
 }
 if (Test-Path -LiteralPath (Join-Path $taskLocalCargo 'bin\cargo.exe')) {

@@ -1,15 +1,15 @@
 # FPV Endurance 项目接手说明
 
-文档核对日期：2026-10-19。当前源码／交付版本：**0.7.2**（淡蓝主题，算法沿用0.7.1）。本文件只记录现行规则；用户新指令优先。历史测试不等于新改动已通过，程序行为验证不等于实机预测准确性验证。
+文档核对日期：2026-10-22。当前源码／交付版本：**0.7.4**（Windows 0.7.4，Android build7005；离线手写字体、新标题、折叠计算说明，保留logo和淡蓝主题，算法沿用0.7.1）。本文件只记录现行规则；用户新指令优先。历史测试不等于新改动已通过，程序行为验证不等于实机预测准确性验证。
 
 ## 接手顺序与工作边界
 
 1. 阅读本文件及[README](README.md)。
-2. 阅读[0.7.2发行说明](docs/RELEASE-0.7.2.md)、[0.7.1算法变更](docs/ALGORITHM-0.7.1.md)与其依赖的[0.7.0完整规则](docs/ALGORITHM-0.7.0.md)；0.7.0的花飞0.65／竞速0.40已被0.7.1替换。
-3. 阅读[0.7.2验收记录](outputs/v0.7.2/验收记录.md)和[实际EXE检查记录](outputs/v0.7.2/desktop-checks.json)，区分测试对象、已有证据与未验证项。历史验收不作为当前新改动的通过证据。
+2. 阅读[0.7.4发行说明](docs/RELEASE-0.7.4.md)、[0.7.1算法变更](docs/ALGORITHM-0.7.1.md)与其依赖的[0.7.0完整规则](docs/ALGORITHM-0.7.0.md)；0.7.0的花飞0.65／竞速0.40已被0.7.1替换。
+3. 阅读[0.7.4验收记录](outputs/v0.7.4/验收记录.md)和[实际EXE检查记录](outputs/v0.7.4/desktop-checks.json)，区分测试对象、已有证据与未验证项。历史验收不作为当前新改动的通过证据。
 4. 查看`git status --short`、版本文件、待改源码和对应测试，再修改。
 
-项目现迁入GitHub私有仓库`tiankangrong46-crypto/FPVtimer`；源码和验收说明提交Git，EXE在Release `v0.7.2`分发。用户2026-10-19明确授权本地仅保留最新版，旧版本交付与临时缓存已获清理授权，此授权替代历史“保留所有旧包”的要求；首次删除曾被执行环境拦截；用户要求重试后已清理旧交付、旧验收profile、旧日志及历史副本，并清理构建目录中的10个旧安装包，共释放约4.68GiB。保留当前源码、0.7.2交付、工具链、参考库与算法依据；禁止用`git clean`、强制重置或无关删除修复环境。版本以后可能变化，恢复时以实际文件核对，不机械沿用本页版本。
+项目现迁入GitHub私有仓库`tiankangrong46-crypto/FPVtimer`；源码和验收说明提交Git，GitHub历史EXE在Release `v0.7.2`分发，当前0.7.4仅本地交付。用户2026-10-19明确授权本地仅保留最新版，旧版本交付与临时缓存已获清理授权，此授权替代历史“保留所有旧包”的要求；首次删除曾被执行环境拦截；用户要求重试后已清理旧交付、旧验收profile、旧日志及历史副本，并清理构建目录中的10个旧安装包，共释放约4.68GiB。保留当前源码、最新版交付、工具链、参考库与算法依据；禁止用`git clean`、强制重置或无关删除修复环境。版本以后可能变化，恢复时以实际文件核对，不机械沿用本页版本。
 
 - 使用简短中文，先说明结果，再说必要原因；工作中及时报告重要进展。
 - 先判断是界面、校验／计算，还是窗口／打包问题。本项目没有独立网络后端，不把计算问题笼统归为Rust问题。若已有前后端分工，说明另一方需配合的事项；无需因此创建额外agent。
@@ -102,7 +102,7 @@ m为kg、D为m；标准密度ρ=1.225kg/m³、声速近似340.3m/s，均为标�
 | `structure.ts`、`flight-scenario.ts`、`frame-fit.ts` | 唯一系数映射、比较、机架上限 |
 | `reference.ts`、`endurance.ts`、`bench.ts`、`category-bench.ts`、`stator.ts` | 独立参考、严格模型、台架匹配／单位／插值 |
 | `src/data/reference-library.ts` | 直接静态引用匿名库7份JSON与manifest |
-| `src-tauri/src/main.rs` | 窗口启动，无另一份业务算法 |
+| `src-tauri/src/lib.rs`、`main.rs` | 共用Tauri启动／桌面入口，无另一份业务算法 |
 | `scripts/build.ps1`、`src-tauri/tauri.conf.json` | 精确版本构建、NSIS及离线组件／许可 |
 | `tests/`、`scripts/desktop-flight-scenario.mjs` | 计算／页面、实际EXE验收 |
 
@@ -112,7 +112,7 @@ m为kg、D为m；标准密度ρ=1.225kg/m³、声速近似340.3m/s，均为标�
 
 ## 工具链、构建与桌面验收
 
-从项目根目录运行，先核实`.tools`仍在：系统Node曾为ia32，项目`.tools/node.exe`为x64，`.tools/cargo`／`.tools/rustup`为本地MSVC工具链。`Use-Toolchain.ps1`设置当前进程环境并生成本地npm包装器，不改系统PATH；包装器使用`%~dp0node.exe`，不要把中文绝对路径写入ASCII批处理。PowerShell 5读取中文JSON／文档显式用`-Encoding UTF8`。
+从项目根目录运行，先核实`.tools`仍在：系统Node曾为ia32，项目`.tools/node.exe`为x64，`.tools/cargo`／`.tools/rustup`为本地MSVC工具链。`Use-Toolchain.ps1`设置当前进程环境并生成本地npm包装器，不改系统PATH；包装器使用`%~dp0node.exe`，不要把中文绝对路径写入ASCII批处理。包装器内容相同时不重复写入，避免并行调用文件占用；本次验证连续两次加载不会重写。PowerShell 5读取中文JSON／文档显式用`-Encoding UTF8`。
 
 ```powershell
 . .\scripts\Use-Toolchain.ps1
@@ -134,21 +134,51 @@ NSIS必须`webviewInstallMode.type=offlineInstaller`，包含完整WebView2离�
 
 ## 现有交付与证据边界
 
-**当前0.7.2交付（2026-10-19）**：仅淡蓝主题与发行版本调整，算法沿用0.7.1；已通过本次149项计算、24项页面、类型检查、Rust／NSIS构建及28项实际EXE离线模拟检查。见[0.7.2验收记录](outputs/v0.7.2/验收记录.md)、[对象SHA与检查JSON](outputs/v0.7.2/desktop-checks.json)、[独立EXE](https://github.com/tiankangrong46-crypto/FPVtimer/releases/download/v0.7.2/FPV-Endurance-0.7.2.exe)、[安装包](https://github.com/tiankangrong46-crypto/FPVtimer/releases/download/v0.7.2/FPV-Endurance-0.7.2-x64-setup.exe)和[许可](outputs/v0.7.2/LICENSE-ATTRIBUTION.md)。旧版交付已按用户后续授权清理。未执行安装包；实机精度、干净系统安装与跨系统兼容等未验证项保留。验收结束专用进程关闭、9224不监听是本次快照。
+**当前0.7.4交付（2026-10-21）**：使用离线霞鹜文楷、新标题及折叠计算说明，保留黑白logo与淡蓝主题，算法沿用0.7.1；本次149项计算、26项页面、类型检查、Rust／NSIS构建及30项实际EXE离线模拟检查通过。见[0.7.4验收记录](outputs/v0.7.4/验收记录.md)、[对象SHA与检查JSON](outputs/v0.7.4/desktop-checks.json)、[独立EXE](outputs/v0.7.4/FPV-Endurance-0.7.4.exe)、[安装包](outputs/v0.7.4/FPV-Endurance-0.7.4-x64-setup.exe)和[许可](outputs/v0.7.4/LICENSE-ATTRIBUTION.md)。主程序与安装包内嵌的16／24／32／48／64／256像素图像均与选定ICO逐项SHA256一致；NSIS安装器／卸载器图标已显式配置。未安装、提交／推送或发布GitHub。验收结束专用进程关闭、9224不监听是本次快照。
 
-以下为0.7.2既有验收证据，不是GitHub上传／清理任务重新执行的结果：
+以下为0.7.4字体任务的验收证据，Android新增验收另见下节；历史0.7.2记录不作为新改动通过依据：
 
 | 验证 | 已有记录 | 边界 |
 | --- | --- | --- |
 | 计算／校验 | 149项通过 | 不证明实机精度 |
-| 页面 | 24项通过 | 不证明所有系统兼容 |
+| 页面 | 26项通过 | 不证明所有系统兼容 |
 | 类型／构建 | vue-tsc、Vite、Rust、NSIS成功 | 未执行安装包 |
-| 真实EXE | 28项WebView2离线模拟 | 非物理断网／干净系统安装 |
+| 真实EXE | 30项WebView2离线模拟 | 非物理断网／干净系统安装 |
 
-独立EXE SHA256：`3DDF66C0E072544D26E5B739537C9EEE07E83DF9BC39377C86CAC14A3D09BC41`。安装包SHA256：`BB278BB7794F2E8F7D26F1471FFE5CE03B400DA0D2AD4E01021AFEF9EC7C20C6`。
+独立EXE SHA256：`088136A45FDDAF3F53A800C8A2049C5EA04A4BEBBEB0994547E4655DCF84EED6`。安装包SHA256：`AA246F765525A0640588E9713816D057CFE5555524DC7A91B008F467422214A9`。
 
-EXE本地在`outputs/v0.7.2/`，GitHub在[Release](https://github.com/tiankangrong46-crypto/FPVtimer/releases/tag/v0.7.2)，不将EXE提交Git。下载独立版时同时下载许可；安装包内含完整离线WebView2组件与独立许可。旧版输出目录未上传GitHub，已从本地删除；算法版本说明仍保留作依据，不是其他可运行版本。
+最新EXE本地在`outputs/v0.7.4/`。GitHub此前发布的[0.7.2 Release](https://github.com/tiankangrong46-crypto/FPVtimer/releases/tag/v0.7.2)仍是历史版本，本任务未更新远端。不将EXE提交Git；独立版分发须附许可。0.7.4已构建并检查；用户关闭旧窗口后，已清理0.7.3旧交付、旧构建安装包、旧日志及专用验收缓存，本轮释放约445.19MiB。此前0.7.2交付已清理，本地可运行交付仅保留0.7.4。算法版本文档保留作依据；logo原图和审查稿是用户素材，不属于旧软件交付。
 
 上次验收的端口／进程状态仅是当时快照，需要时重新核实。仍未验证实机预测精度、用户系数校准、干净无WebView2电脑首次离线安装、本版安装／升级／卸载、Windows 10、ARM64／32位和全部缩放；应用未签名。
 
-业务改动运行计算测试和类型检查；界面改动验证交互；交付变化构建并验收实际EXE。GitHub上传及清理不改变算法和现有EXE，不把旧测试说成本次重跑。
+业务改动运行计算测试和类型检查；界面改动验证交互；交付变化构建并验收实际EXE。本轮日志为.tools/v0.7.4-build.log、v0.7.4-ui.log及v0.7.4-desktop.log；不要将旧验收当作新通过。此前字体任务未开始Android移植；2026-10-21本轮新增Android移植，见下节。未提交或推送。
+
+## 0.7.4 界面与字体边界
+
+主标题使用用户原句“地球开始竖着转了，朋友们我们赤道大变了”。首页两段长说明已收进默认折叠的“计算说明”，切换结构恢复默认参数的简短提示保留；结果仍须明确理论／未校准及实际能量假设，不能通过界面美化伪装成实测或正式评级。系数展示直接调用domain表，算法和参考库不改。
+
+字体唯一资源为src/assets/fonts/LXGWWenKai-Regular.ttf（v1.530），OFL.txt原样保留；安装资源和独立交付都须提供LXGW-WenKai-OFL.txt。它是参考截图的近似风格，不声称同款。字体许可中的URL合法；匿名候选业务区仍不展示品牌或来源。
+
+## Android移植现行补充（2026-10-21）
+
+源码版本仍为0.7.4，Windows原交付不替换；Android独立位于根目录`Android/v0.7.4-build7005/`。2026-10-22用户新授权删除遗留文件／旧版本并推送最新版本，替代移植时“不清理／不提交／不推送”的任务限制；不自动安装、不上传商店、不删除无关文件的边界继续保留。旧build7004包已删除，必要验收证据归档到`docs/validation/android-port-build7004/`。
+
+接手Android先读[移植说明](docs/ANDROID.md)、[当前安装说明](Android/v0.7.4-build7005/安装说明.md)及[当前验收记录](Android/v0.7.4-build7005/验收记录.md)。原移植验收在`docs/validation/android-port-build7004/验收记录.md`，不当作新改动的通过证据。Windows／Android共用Vue、domain及静态匿名库；不重写Kotlin／Rust公式或调整系数。
+
+`lib.rs`提供唯一Tauri启动，`main.rs`为Windows薄入口；桌面窗口／NSIS／离线WebView2拆到`tauri.windows.conf.json`，Android配置在`tauri.android.conf.json`。Android应用ID为com.local.fpvendurance（测试版加.debug），versionName0.7.4、versionCode7005，API28安装门槛、compile／target36，arm64-v8a及x86_64。只在Android15 x86_64模拟器／WebView124验收，不能据此声称所有版本或真机兼容。
+
+Android局部排版通过既有Android UA识别应用`android-app`类：定子标签不显示可跳过候选小字，评估和清空为52px最小高度的主次按钮，不显示桌面箭头／快捷键。Windows保持旧标记和样式。不要为了删除提示而改动定子选填／匹配算法；所有输入变化仍即时使旧结果失效。构建目录和APK文件名含versionCode，避免同versionName的Android修订覆盖旧包。
+
+Android工程src-tauri/gen/android已成为维护源码，勿重复init覆盖定制；内部构建缓存、绝对路径、SO和签名秘密必须忽略。Use-AndroidToolchain仅改当前进程；Windows与Android建议分别在独立进程构建，避免Android的sysroot／link flags污染桌面命令。本机英文工具别名、实际NDK位置和无需符号链接权限的复制构建见移植说明，不能假定换机存在。
+
+用户明确授权新建稳定发行密钥，密钥及Windows用户DPAPI加密密码保留在项目外私有目录。允许通过Use-AndroidSigning复用；禁止提交、记录明文密码、打包秘密或因解密失败自动更换密钥。DPAPI原文读取需Trim以兼容行尾。独立参考库与字体许可每次从原文件刷新到mobile-resources/licenses，实际APK内字节需核对；匿名unknown仍保持不变。
+
+首次移植的历史证据：149项计算、类型检查、28项页面及修改入口后的30项Windows实际EXE检查；测试APK12项、发行APK12项模拟器流程。build7005随后通过30项页面、14项发行模拟器流程及1项退出检查。没有真机、ARM64实际运行、16KB设备、全系统版本或实机预测精度验收。正式包无INTERNET权限，旧测试包为调试保留；两包签名及ID不同，不能互相覆盖。后续发行版需同密钥／包名并提高版本码。
+
+## 2026-10-22 清理与GitHub发布
+
+用户明确授权本次清理旧版本并推送。当前仓库`tiankangrong46-crypto/FPVtimer`保持私有；源码和验收说明同步`main`，安装文件通过[v0.7.4 Release](https://github.com/tiankangrong46-crypto/FPVtimer/releases/tag/v0.7.4)分发，EXE／APK、开发缓存和签名秘密不提交Git。此前章节的“未提交／仅本地交付”描述的是2026-10-21及更早任务快照，以本节为当前状态；旧远端Release／Git历史保留，不做强推或历史改写。
+
+本地仅保留Windows 0.7.4和Android build7005可运行交付；清理旧Android两包、Windows重复target、Android工程build／Gradle缓存／SO副本、SDK安装下载包及专用桌面验收profile等，净释放约7.44GiB。保留源码、参考库、算法文档、logo用户素材、必要历史验收、Node／Rust／SDK／NDK和项目外发行密钥。首次移植历史记录已迁移，不能按旧路径机械删除SDK或签名目录。
+
+本次重跑149项计算、30项页面和类型检查通过；没有重构建、安装或重跑Windows／Android原生验收，不把历史原生检查写成本次重跑。交付文件及domain／参考库哈希核对；详见[清理与发布记录](docs/PUBLISH-2026-10-22.md)。构建缓存被删后首次重建需要更久；工具链仍保留。

@@ -1,0 +1,10 @@
+[
+  {
+    "Variant": "debug",
+    "Zipalign16KB": true
+  },
+  {
+    "Variant": "release",
+    "Zipalign16KB": true
+  }
+]

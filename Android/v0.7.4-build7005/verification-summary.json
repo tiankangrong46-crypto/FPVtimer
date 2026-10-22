@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-21",
+  "versionName": "0.7.4",
+  "versionCode": 7005,
+  "apk": "FPV-Endurance-0.7.4-build7005-android-release.apk",
+  "sha256": "9EFCA78385C0BF7E7AF0AF89CD4B03F465354F55E63666EFD11931AF43C8E15B",
+  "calculationTests": 149,
+  "pageTests": 30,
+  "typeCheck": "passed",
+  "emulatorChecks": 14,
+  "confirmedExitCheck": "passed",
+  "upgrade": "7004 to 7005; dedicated emulator only",
+  "unchangedFiles": 71,
+  "realPhoneVerified": false,
+  "windowsDeliverablesReplaced": false,
+  "testAPKRebuilt": false,
+  "modelPrecisionValidated": false
+}

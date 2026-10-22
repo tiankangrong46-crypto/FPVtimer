@@ -21,3 +21,5 @@ Copy-Item -LiteralPath $taskInstaller.FullName -Destination (Join-Path $taskOutp
 Copy-Item -LiteralPath (Join-Path $taskRoot 'src-tauri\target\release\fpv-endurance.exe') -Destination (Join-Path $taskOutputDir ('FPV-Endurance-' + $taskVersion + '.exe'))
 Copy-Item -LiteralPath (Join-Path $taskRoot 'reference-library\v0.1.0\LICENSE-ATTRIBUTION.md') -Destination (Join-Path $taskOutputDir 'LICENSE-ATTRIBUTION.md')
 Get-ChildItem -LiteralPath $taskOutputDir -Filter '*.exe' | Select-Object Name,Length
+
+Copy-Item -LiteralPath (Join-Path $taskRoot 'src\assets\fonts\OFL.txt') -Destination (Join-Path $taskOutputDir 'LXGW-WenKai-OFL.txt')

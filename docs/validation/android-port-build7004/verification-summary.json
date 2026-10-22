@@ -1,0 +1,30 @@
+{
+  "version": "0.7.4",
+  "date": "2026-10-21",
+  "calculationTests": 149,
+  "pageTests": 28,
+  "typeCheck": true,
+  "rebuiltWindowsEXEChecks": 30,
+  "artifacts": [
+    {
+      "variant": "debug",
+      "path": "Android/v0.7.4/FPV-Endurance-0.7.4-android-debug.apk",
+      "bytes": 300801330,
+      "sha256": "1e4369ce36a7272281412e4ec098234631a3b7af34f4f1e3ac10922aba730a16",
+      "emulatorChecks": 12
+    },
+    {
+      "variant": "release",
+      "path": "Android/v0.7.4/FPV-Endurance-0.7.4-android-release.apk",
+      "bytes": 34688438,
+      "sha256": "420cf8f8ff0172a1a5bdb656776497f3f1c189315703ba7f750d3c0cbd112b68",
+      "emulatorChecks": 12
+    }
+  ],
+  "emulator": "Android15 API35 x86_64, System WebView124.0.6367.219",
+  "confirmedExitRelaunch": true,
+  "originalWindowsAndDomainFilesUnchanged": 40,
+  "physicalPhoneTested": false,
+  "arm64RuntimeTested": false,
+  "realFlightAccuracyValidated": false
+}

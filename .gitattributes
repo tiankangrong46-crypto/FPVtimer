@@ -6,3 +6,12 @@
 *.jpeg binary
 *.ico binary
 *.zip binary
+*.ttf binary
+*.woff2 binary
+*.apk binary
+*.jar binary
+# Preserve upstream license bytes, including its intentional trailing spaces.
+**/OFL.txt -text whitespace=-blank-at-eol
+**/LXGW-WenKai-OFL.txt -text whitespace=-blank-at-eol
+**/LICENSE-ATTRIBUTION.md -text
+**/reference-library-0.1.0-LICENSE-ATTRIBUTION.md -text

@@ -1,17 +1,22 @@
 # FPV Endurance · 穿越机续航参考与实际对比
 
-Windows本地单页应用，Tauri 2 + Vue 3 + TypeScript + Vite，当前版本 **0.7.2**（2026-10-19），使用淡蓝色主题。运行离线，不上传、不保存飞行记录；不需要开发工具。
+Windows／Android共用的本地单页应用，Tauri 2 + Vue 3 + TypeScript + Vite，当前版本 **0.7.4**（2026-10-21），使用离线手写字体、新标题和折叠计算说明，保留原logo与淡蓝主题。运行离线，不上传、不保存飞行记录；不需要开发工具。
 
 **目标：给出所选结构和飞行方式下的理论参考时间，并与本次实际时长对比。** 用户结构时间与方式系数是明确假设，未经实机校准；差值不代表电池健康或正式续航评级。
 
-GitHub仓库：[FPVtimer](https://github.com/tiankangrong46-crypto/FPVtimer)；[下载0.7.2安装包／独立程序](https://github.com/tiankangrong46-crypto/FPVtimer/releases/tag/v0.7.2)。Git保存源码和验收说明，EXE通过Release分发，克隆仓库后需另行下载。
+GitHub仓库：[FPVtimer](https://github.com/tiankangrong46-crypto/FPVtimer)；当前下载入口为[0.7.4 Release](https://github.com/tiankangrong46-crypto/FPVtimer/releases/tag/v0.7.4)，包含Windows 0.7.4与Android build7005。源码及验收说明提交Git，EXE／APK通过Release分发，不放入Git历史。2026-10-22清理与发布记录见[本次记录](docs/PUBLISH-2026-10-22.md)。
 
-接手先读[AGENTS.md](AGENTS.md)、[0.7.2发行说明](docs/RELEASE-0.7.2.md)、[0.7.1算法变更](docs/ALGORITHM-0.7.1.md)、[0.7.0完整规则](docs/ALGORITHM-0.7.0.md)和[本版验收记录](outputs/v0.7.2/验收记录.md)。0.7.2只调整配色及发行版本，算法沿用0.7.1；0.7.0文档中的旧花飞／竞速系数以0.7.1为准。算法历史说明作为依据保留；按用户2026-10-19授权，本地仅保留0.7.2交付，旧安装包与临时验收缓存已清理，outputs仅保留v0.7.2。
+接手先读[AGENTS.md](AGENTS.md)、[0.7.4发行说明](docs/RELEASE-0.7.4.md)、[0.7.1算法变更](docs/ALGORITHM-0.7.1.md)、[0.7.0完整规则](docs/ALGORITHM-0.7.0.md)和[本版验收记录](outputs/v0.7.4/验收记录.md)。0.7.4调整字体、标题与说明层次，算法沿用0.7.1；0.7.0文档中的旧花飞／竞速系数以0.7.1为准。历史算法与验收说明作为依据保留，本地可运行文件按用户要求仅保留最新版；logo审查稿不是旧软件交付。
+
+## Android交付
+
+当前Android发行APK为[0.7.4 build 7005](Android/v0.7.4-build7005/安装说明.md)：移除定子规格旁的“未知可跳过候选”，评估／清空改为等高主次按钮，仅Android生效。算法与Windows共用，Windows界面及原交付不替换。最低安装门槛Android9、arm64／x86_64；实际验证环境和未验证项见[本次验收](Android/v0.7.4-build7005/验收记录.md)。原build7004安装包已按2026-10-22新授权删除，必要历史证据归档到[移植验收](docs/validation/android-port-build7004/README.md)。见[移植与构建](docs/ANDROID.md)。不向手机自动安装、不发布商店。
 
 ## 运行与使用
 
-- [直接运行版](https://github.com/tiankangrong46-crypto/FPVtimer/releases/download/v0.7.2/FPV-Endurance-0.7.2.exe)：电脑需已有WebView2，分发时同附`LICENSE-ATTRIBUTION.md`。
-- [安装包](https://github.com/tiankangrong46-crypto/FPVtimer/releases/download/v0.7.2/FPV-Endurance-0.7.2-x64-setup.exe)：包含WebView2完整离线安装组件和独立许可，供用户自行安装。本次不自动安装。
+- [直接运行版](https://github.com/tiankangrong46-crypto/FPVtimer/releases/download/v0.7.4/FPV-Endurance-0.7.4.exe)：电脑需已有WebView2，分发时同附`LICENSE-ATTRIBUTION.md`和`LXGW-WenKai-OFL.txt`。
+- [安装包](https://github.com/tiankangrong46-crypto/FPVtimer/releases/download/v0.7.4/FPV-Endurance-0.7.4-x64-setup.exe)：包含WebView2完整离线安装组件和独立许可，供用户自行安装。本次不自动安装。
+- [Android APK](https://github.com/tiankangrong46-crypto/FPVtimer/releases/download/v0.7.4/FPV-Endurance-0.7.4-build7005-android-release.apk)：发行签名，可覆盖原发行build7004；真实手机兼容性尚未验收。
 
 目标Windows 10/11 x64，实际检查为Windows 11 x64、已有WebView2。未签名，缺WebView2的干净电脑首次离线安装未实测。独立EXE自身不包含WebView2。旧安装版仍可能指向旧版本，请运行本版目录中的EXE。
 
@@ -92,7 +97,7 @@ UI测试首次需安装独立Chromium：`npm.cmd exec playwright install chromiu
 
 ```powershell
 . .\scripts\Use-Toolchain.ps1
-$taskExe = (Resolve-Path -LiteralPath 'outputs\v0.7.2\FPV-Endurance-0.7.2.exe').Path
+$taskExe = (Resolve-Path -LiteralPath 'outputs\v0.7.4\FPV-Endurance-0.7.4.exe').Path
 if (Get-NetTCPConnection -State Listen -LocalPort 9224 -ErrorAction SilentlyContinue) {
     throw '9224已占用，请先核实占用者，不要关闭无关进程。'
 }
@@ -148,6 +153,8 @@ try {
 }
 ```
 
-最近一次0.7.2验收（2026-10-19）：149项计算、24项页面、类型检查及28项实际EXE离线模拟检查通过，详见[验收记录](outputs/v0.7.2/验收记录.md)和[对象SHA／检查JSON](outputs/v0.7.2/desktop-checks.json)。已重新构建淡蓝主题独立EXE及包含完整WebView2离线组件的安装包，新增实际EXE版本与配色检查；未执行安装；旧版交付已按用户后续授权清理，outputs仅保留v0.7.2。
+最近一次0.7.4验收（2026-10-21）：149项计算、26项页面、类型检查及30项实际EXE离线模拟检查通过，详见[验收记录](outputs/v0.7.4/验收记录.md)和[对象SHA／检查JSON](outputs/v0.7.4/desktop-checks.json)。已重新构建含本地手写字体的独立EXE和安装包，验证标题与折叠说明，保留并核对六种内嵌图标资源。未执行安装或发布GitHub；用户关闭旧窗口后，旧0.7.3交付、旧构建安装包及专用临时缓存已清理（本轮约445.19MiB），本地软件交付只保留0.7.4；用户素材、当前源码及算法依据保留。本轮重建日志见验收记录。
 
 尚无实机校准结构时间、方式系数或整机续航精度；未验证全新无WebView2系统首次离线安装、本版安装／升级／卸载、Windows 10、ARM64、32位或全部缩放。离线检查是WebView2网络模拟，不是物理断网或完整系统网络审计。不要将旧版安装结论沿用于本版。
+
+字体采用霞鹜文楷v1.530，按OFL-1.1随程序离线打包，不需系统安装。首页长模型说明可在“计算说明”展开；结果中必要的理论与能量假设继续保留。

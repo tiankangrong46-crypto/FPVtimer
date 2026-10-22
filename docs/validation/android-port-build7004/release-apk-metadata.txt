@@ -1,0 +1,6 @@
+package: name='com.local.fpvendurance' versionCode='7004' versionName='0.7.4' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+sdkVersion:'28'
+targetSdkVersion:'36'
+uses-permission: name='com.local.fpvendurance.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+application-label:'FPV Endurance'
+native-code: 'arm64-v8a' 'x86_64'

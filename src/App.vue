@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, reactive, ref, watch } from 'vue';
 import MeasureField from './MeasureField.vue';
+import appLogo from './assets/app-logo.png';
 import { blankInput, type Analysis, type RawInput, type NumberField, type Validation } from './domain/types';
 import { labels, parseReading, validate } from './domain/validation';
 import { analyze } from './domain/analysis';
@@ -11,7 +12,10 @@ import { frameSizeExamples } from './domain/frame-fit';
 import { selectStructure, structureOptions, structureValue } from './domain/structure';
 import { comparisonSummary, comparisonIntervalNote, flightScenarios } from './domain/flight-scenario';
 import { version } from '../package.json';
+import fontLicense from './assets/fonts/OFL.txt?raw';
 
+const isAndroid = /Android/i.test(navigator.userAgent);
+const platformName = isAndroid ? 'Android' : 'Windows';
 const form = reactive(blankInput());
 const aircraftStructure = computed({ get: () => structureValue(form), set: value => Object.assign(form, selectStructure(value)) });
 const validation = ref<Validation | null>(null);
@@ -56,7 +60,12 @@ async function evaluate() {
     return;
   }
   result.value = analyze(validation.value.input);
-  await nextTick(); resultElement.value?.focus({ preventScroll: true });
+  await nextTick();
+  if (window.matchMedia('(max-width: 760px)').matches) {
+    (document.activeElement as HTMLElement | null)?.blur();
+    resultElement.value?.scrollIntoView({ block: 'start', behavior: 'instant' });
+  }
+  resultElement.value?.focus({ preventScroll: true });
 }
 async function reset() { Object.assign(form, blankInput()); optionalOpen.value = false; await nextTick(); document.getElementById('weight')?.focus(); }
 const sourceOptions = [
@@ -78,28 +87,29 @@ function timeRange(range: [number, number]) { return `${(range[0]/60).toFixed(1)
 </script>
 
 <template>
-  <div class="app-shell">
+  <div class="app-shell" :class="{ 'android-app': isAndroid }">
     <header class="topbar">
-      <div class="brand"><span class="brand-mark">F</span><span>FIELD / FPV<span class="brand-sub">飞后参考工具</span></span></div>
+      <div class="brand"><img class="brand-mark" :src="appLogo" alt="FPV Endurance 标志" width="44" height="44"><span>FIELD / FPV<span class="brand-sub">飞后参考工具</span></span></div>
       <span class="offline"><i></i> 本地运行 · 无需联网</span>
     </header>
     <main>
       <div class="intro">
-        <div><p class="eyebrow">AFTER THE FLIGHT</p><h1>这次，飞得怎么样？</h1><p class="intro-copy">查看所选工况的理论参考时间，并与本次实际时长比较。</p></div>
-        <span class="version">Windows · v{{ version }}</span>
+        <div><p class="eyebrow">AFTER THE FLIGHT</p><h1>地球开始竖着转了，朋友们我们赤道大变了</h1><p class="intro-copy">查看所选工况的理论参考时间，并与本次实际时长比较。</p></div>
+        <span class="version">{{ platformName }} · v{{ version }}</span>
       </div>
       <div class="scope-note">适用范围：普通四轴穿越机 · 1–8S LiPo / LiHV。续航偏短不能直接说明电池损坏。</div>
       <div class="workspace">
         <form novalidate autocomplete="off" @submit.prevent="evaluate" @keydown.ctrl.enter.prevent="evaluate">
-          <fieldset class="style-picker mode-picker"><legend>评估模式</legend><div class="style-options"><label><input v-model="form.estimateMode" type="radio" name="estimate-mode" value="standard"><span>标准评估</span></label><label><input v-model="form.estimateMode" type="radio" name="estimate-mode" value="rough"><span>粗估模式</span></label></div><p class="small-note">{{ form.estimateMode === 'rough' ? '查看所选工况理论参考与实际对比：匹配台架优先，理想模型后备；最后乘悬停100%、巡航80%、花飞58%、竞速33%时间系数（用户假设）。' : '保留独立实飞参考、严格台架与本次电流等效；匿名库只展示候选功率。' }}</p></fieldset>
+          <fieldset class="style-picker mode-picker"><legend>评估模式</legend><div class="style-options"><label><input v-model="form.estimateMode" type="radio" name="estimate-mode" value="standard"><span>标准评估</span></label><label><input v-model="form.estimateMode" type="radio" name="estimate-mode" value="rough"><span>粗估模式</span></label></div></fieldset>
+          <details class="model-guide"><summary>计算说明</summary><div><p>匹配台架优先，理想模型后备。飞行方式采用时间系数：{{ Object.values(flightScenarios).map(s => `${s.label}${Math.round(s.timeFactor * 100)}%`).join('、') }}，均为用户指定假设，未经实机校准。</p><p>结构时间保留参数：{{ structureOptions.map(s => `${s.label}${s.factorPercent}%`).join('、') }}。切换结构恢复默认值，仅用于理想模型；台架分支不重复折减。</p><p>标准评估保留独立实飞参考、严格台架和本次电流等效。详细条件见评估结果中的折叠依据。</p></div></details>
           <section class="form-section" aria-labelledby="plane-title">
             <div class="section-heading"><span class="step">01</span><h2 id="plane-title">飞机配置</h2><span class="section-meta">* 为必填项</span></div>
             <div class="grid two">
               <MeasureField v-for="f in planeFields" :key="f.key" :id="f.key" v-model="form[f.key]" :label="labels[f.key]" :unit="f.unit" :hint="f.hint" :error="errorFor(f.key)" required />
             </div>
             <div class="grid two">
-              <div class="field"><label for="aircraft">飞机结构</label><select id="aircraft" v-model="aircraftStructure"><option v-for="s in structureOptions" :key="s.value" :value="s.value">{{ s.label }}</option></select><div class="field-hint">切换结构会重填时间保留系数：裸桨25%（最终时间×0.25），圈圈18%（×0.18）。替换旧功率损耗；台架不重复折减。</div></div>
-              <div class="field"><label for="stator">电机定子规格 <span class="optional-tag">未知可跳过候选</span></label><input id="stator" v-model="form.stator" list="stator-options" maxlength="20" placeholder="例如0802、2306、2806.5；无需品牌" :aria-invalid="!!errorFor('stator')" aria-describedby="stator-hint"><datalist id="stator-options"><option v-for="s in statorOptions" :key="s" :value="s" /></datalist><div id="stator-hint" class="field-hint" :class="{'warning-text':errorFor('stator')}">{{ errorFor('stator') || '保留前导零和小数高度；可自由填写库外规格' }}</div></div>
+              <div class="field"><label for="aircraft">飞机结构</label><select id="aircraft" v-model="aircraftStructure"><option v-for="s in structureOptions" :key="s.value" :value="s.value">{{ s.label }}</option></select><div class="field-hint">切换结构会恢复对应的默认参数。</div></div>
+              <div class="field"><label for="stator">电机定子规格 <span v-if="!isAndroid" class="optional-tag">未知可跳过候选</span></label><input id="stator" v-model="form.stator" list="stator-options" maxlength="20" placeholder="例如0802、2306、2806.5；无需品牌" :aria-invalid="!!errorFor('stator')" aria-describedby="stator-hint"><datalist id="stator-options"><option v-for="s in statorOptions" :key="s" :value="s" /></datalist><div id="stator-hint" class="field-hint" :class="{'warning-text':errorFor('stator')}">{{ errorFor('stator') || '保留前导零和小数高度；可自由填写库外规格' }}</div></div>
             </div>
             <MeasureField id="frameMaxProp" v-model="form.frameMaxProp" label="机架允许最大桨径" unit="英寸" :error="errorFor('frameMaxProp')" soft unknown hint="选填，按你的机架说明书填写；超出上限停止理论估算。5英寸级可能允许5.1，以具体机架为准。" />
             <details class="frame-size-reference"><summary>机架轴距与桨径参考</summary><p>轴距用mm，桨径用英寸；下列是具体厂商配置示例，不能按轴距自动推定所有机架的上限。</p><p v-for="e in frameSizeExamples" :key="e.wheelbaseMm">{{ e.wheelbaseMm }} mm机架示例：{{ e.propellerIn }} 英寸桨。</p><p>未填写最大桨径时不确认安装适配；仍保留原几何模型范围检查。</p></details>
@@ -229,7 +239,7 @@ function timeRange(range: [number, number]) { return `${(range[0]/60).toFixed(1)
             </div>
           </details>
           <div v-if="submitted && errors.length" role="alert" class="error-summary">有 {{ errors.length }} 项必填数据需要修正。已定位到第一项。</div>
-          <div class="actionbar"><button type="submit" class="primary">评估本次飞行 <span aria-hidden="true">↗</span></button><button type="button" class="reset" @click="reset">清空</button><span class="shortcut">Ctrl + Enter</span></div>
+          <div class="actionbar"><button type="submit" class="primary">评估本次飞行 <span v-if="!isAndroid" aria-hidden="true">↗</span></button><button type="button" class="reset" @click="reset">清空</button><span v-if="!isAndroid" class="shortcut">Ctrl + Enter</span></div>
           <p class="privacy-note">数据只在本次窗口内使用，关闭后不保留。</p>
         </form>
 
@@ -287,6 +297,7 @@ function timeRange(range: [number, number]) { return `${(range[0]/60).toFixed(1)
           <details class="explanation"><summary>参考库与适用边界 <span>＋</span></summary><div class="explanation-body">
             <p class="library-note">本版合格实飞参考：0 条，独立工况校准k：0 条。实测参考、严格模型、粗估场景和本次等效续航分别处理；模型、粗估与等效结果不能证明本次续航正常。</p>
             <p>{{ referenceLibrary.available ? `匿名候选库 v${referenceLibrary.version}：${referenceLibrary.motors.length}个规格／KV组合、${referenceLibrary.segments.length}段同电压候选；不能保证覆盖用户的实际电机。` : referenceLibrary.message }}</p>
+            <details class="font-license"><summary>字体许可 · 霞鹜文楷</summary><p>霞鹜文楷 v1.530，作者LXGW；基于Klee One，按SIL Open Font License 1.1随程序离线提供。</p><pre>{{ fontLicense }}</pre></details>
             <p>业务数据不含品牌、产品名或外部链接。独立许可署名文件随程序分发，不参与计算。原厂标称、少量记录和未经独立验证的模型不当作正常阈值。</p>
             <p>“回弹”指同次停桨前后电压变化，必须保留两个测量时点；测量间隔长时不解释为瞬时压降。不使用起降电压差线性换算电量，不仅凭 KV 推算功率。</p>
           </div></details>

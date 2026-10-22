@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-22",
+  "calculationTests": 149,
+  "pageTests": 30,
+  "typeCheck": "passed",
+  "nativeRebuilt": false,
+  "nativeTestsRerun": false,
+  "windows": "0.7.4",
+  "androidVersionCode": 7005,
+  "logs": ".tools/publish-2026-10-22/",
+  "predictionAccuracyValidated": false
+}

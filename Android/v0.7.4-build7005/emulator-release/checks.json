@@ -1,0 +1,24 @@
+{
+  "testType": "Android emulator release APK; not a physical phone",
+  "apkPath": "Android/v0.7.4-build7005/FPV-Endurance-0.7.4-build7005-android-release.apk",
+  "apkSHA256": "9efca78385c0bf7e7af0af89cd4b03f465354f55e63666efd11931af43c8e15b",
+  "package": "com.local.fpvendurance",
+  "api": "35",
+  "webview": "Current WebView Update Service state\r\n  Current WebView package (name, version): (com.google.android.webview, 124.0.6367.219)\r\n  Minimum targetSdkVersion: 33\r\n  Minimum WebView version code: 636771938\r\n  Number of relros started: 1\r\n  Number of relros finished: 1\r\n  WebView package dirty: false\r\n  Any WebView package installed: true\r\n  Preferred WebView package (name, version): (com.google.android.webview, 124.0.6367.219)\r\n  WebView packages:\r\n    Valid package com.google.android.webview (versionName: 124.0.6367.219, versionCode: 636771938, targetSdkVersion: 34) is  installed/enabled for all users\r\n    com.google.android.webview.beta is NOT installed.\r\n    com.google.android.webview.dev is NOT installed.\r\n    com.google.android.webview.canary is NOT installed.\r\n    com.google.android.webview.debug is NOT installed.\r\n    com.android.webview is NOT installed.",
+  "checks": [
+    "Bundled offline frontend starts in Android System WebView",
+    "Android stator hint removed and equal-height primary/secondary actions fit the screen",
+    "Both structures and all four styles match independent Node/domain reference and comparison",
+    "Changing actual time invalidates old result without changing theoretical time",
+    "Restyled clear action resets inputs and invalidates the result",
+    "Unknown, empty, explicit zero, negative temperature and invalid-input focus work in WebView",
+    "Outside frame fit does not produce a theoretical time",
+    "Bundled anonymous library is usable in actual APK",
+    "Focused input and scroll-to-submit remain reachable above the real soft keyboard",
+    "Real emulator soft keyboard shows and first Back hides it without exiting",
+    "Back confirmation can cancel without losing input",
+    "Background and resume in the same process preserve the form",
+    "Actual emulator portrait and landscape retain input with no horizontal overflow",
+    "Airplane-mode cold start loads local font, data and calculation; killed process does not retain records"
+  ]
+}

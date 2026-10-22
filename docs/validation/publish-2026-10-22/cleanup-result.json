@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-22",
+  "removed": [
+    {
+      "path": "Android/v0.7.4",
+      "files": 31,
+      "bytes": 338515782.0
+    },
+    {
+      "path": "src-tauri/target",
+      "files": 8395,
+      "bytes": 6064041504.0
+    },
+    {
+      "path": "src-tauri/gen/android/app/build",
+      "files": 1577,
+      "bytes": 1355472277.0
+    },
+    {
+      "path": "src-tauri/gen/android/.gradle",
+      "files": 18,
+      "bytes": 4155134.0
+    },
+    {
+      "path": "src-tauri/gen/android/.kotlin",
+      "files": 0,
+      "bytes": null
+    },
+    {
+      "path": "src-tauri/gen/android/buildSrc/build",
+      "files": 122,
+      "bytes": 659177.0
+    },
+    {
+      "path": "src-tauri/gen/android/buildSrc/.gradle",
+      "files": 6,
+      "bytes": 77310.0
+    },
+    {
+      "path": "src-tauri/gen/android/buildSrc/.kotlin",
+      "files": 0,
+      "bytes": null
+    },
+    {
+      "path": "src-tauri/gen/android/app/src/main/jniLibs",
+      "files": 2,
+      "bytes": 31942144.0
+    },
+    {
+      "path": ".tools/android/commandline-tools.zip",
+      "files": 1,
+      "bytes": 136324801.0
+    },
+    {
+      "path": ".tools/android/commandline-unpack",
+      "files": 0,
+      "bytes": null
+    },
+    {
+      "path": ".tools/android/icons",
+      "files": 52,
+      "bytes": 3742872.0
+    },
+    {
+      "path": ".tools/rustup-init.exe",
+      "files": 1,
+      "bytes": 12721664.0
+    },
+    {
+      "path": ".tools/verify-icon-v0.7.3.ps1",
+      "files": 1,
+      "bytes": 4140.0
+    },
+    {
+      "path": ".tools/desktop-v0.7.4-d45b4102141f45c68a4307811f43e55e",
+      "files": 142,
+      "bytes": 11702135.0
+    },
+    {
+      "path": ".tools/taste-v0.7.4",
+      "files": 0,
+      "bytes": null
+    },
+    {
+      "path": "dist",
+      "files": 5,
+      "bytes": 28678770.0
+    },
+    {
+      "path": "test-results",
+      "files": 1,
+      "bytes": 45.0
+    },
+    {
+      "path": "Android/v0.7.4-build7005/emulator-release/ime-visible.txt",
+      "files": 1,
+      "bytes": 763655
+    }
+  ],
+  "archivedEvidence": "docs/validation/android-port-build7004",
+  "archiveBytes": 1480964.0,
+  "estimatedNetBytes": 7987320446.0,
+  "preserved": "Windows 0.7.4; Android build7005; source, reference library, licenses, SDK/NDK, Node/Rust and external signing key"
+}

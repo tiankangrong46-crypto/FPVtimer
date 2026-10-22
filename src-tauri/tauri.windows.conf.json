@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "app": {
+    "windows": [
+      {
+        "title": "穿越机续航表现评估 v0.7.4",
+        "width": 1240,
+        "height": 900,
+        "minWidth": 760,
+        "minHeight": 600,
+        "backgroundColor": "#eef7fd"
+      }
+    ]
+  },
+  "bundle": {
+    "windows": {
+      "webviewInstallMode": {
+        "type": "offlineInstaller",
+        "silent": true
+      },
+      "nsis": {
+        "installMode": "currentUser",
+        "languages": [
+          "SimpChinese",
+          "English"
+        ],
+        "displayLanguageSelector": false,
+        "installerIcon": "icons/icon.ico",
+        "uninstallerIcon": "icons/icon.ico"
+      }
+    },
+    "targets": [
+      "nsis"
+    ]
+  }
+}
